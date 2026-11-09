@@ -1,13 +1,44 @@
 # サイト公開手順（GitHub Pages）
 
-このZIPは公開URLを取得済みのサイトではなく、**公開可能なWebサイト一式**です。
+公開先（2026年11月9日に設定済み）
 
-1. GitHubで新規Publicリポジトリを作成します（例：`animalotta-title-atlas`）。
-2. ZIPを展開し、その中の `index.html` とその他のファイルをリポジトリの最上位にアップロードします。
-3. リポジトリの `Settings` → `Pages` → `Build and deployment` を開きます。
-4. `Source` に `Deploy from a branch`、`Branch` に `main` / `(root)` を選んで保存します。
-5. GitHub Pagesの画面に表示された公開URLにアクセスします。
+- リポジトリ: https://github.com/kurageBEAM/animalotta-title-atlas （Public）
+- 公開URL: https://kuragebeam.github.io/animalotta-title-atlas/
+- 設定: Settings → Pages → Deploy from a branch、`main` / `(root)`。`.nojekyll` を置いているので Jekyll の変換は行われず、ファイルがそのまま配信されます。
 
-※ この成果物は完全静的サイトです。ホスティング用サーバープログラムは必要ありません。
-※ 個人の獲得チェック状態はブラウザのローカルストレージに保存され、別のブラウザやスマホとは自動同期されません。
-※ 資料の原典を尊重して、実機の獲得条件は参考として掲載しています。サイトでは出典URLを明記してください。
+## 更新のしかた
+
+このフォルダ（`D:\osu\Mapping\Anima`）はそのままリポジトリのクローンです。サイトを直したら次の手順で反映します。
+
+1. 難易度やUIを変えた場合はビルドします。
+
+```bash
+python tools/build_difficulty.py
+```
+
+```bash
+python tools/assemble_ui.py
+```
+
+2. 変更をコミットしてプッシュします。
+
+```bash
+git add -A
+```
+
+```bash
+git commit -m "変更内容を書く"
+```
+
+```bash
+git push
+```
+
+3. 1〜2分で公開URLに反映されます（反映の状況は GitHub の Actions タブ「pages build and deployment」で確認できます）。
+
+## 注意
+
+- `.claude/` フォルダは `.gitignore` で除外しています（ローカルのプレビュー設定のみ）。
+- 個人の獲得チェック・獲得日・手動補正は閲覧者のブラウザ（localStorage）に保存され、リポジトリには含まれません。端末を変えるときはサイトの「セーブデータ」から書き出したJSONを使ってください。
+- 公開URLが変わると保存先（オリジン）も変わり、記録は引き継がれません。URLを変える前に必ずセーブデータを書き出してください。
+- このサイトは非公式の個人用資料です。出典URLを明記したまま公開してください。

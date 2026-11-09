@@ -2,6 +2,8 @@
 
 更新日：2026年11月9日 ／ 難易度モデル v1.3・難易度データ v1.8（サイト版 3.1）
 
+公開URL: https://kuragebeam.github.io/animalotta-title-atlas/ （リポジトリ: https://github.com/kurageBEAM/animalotta-title-atlas 、更新手順は `DEPLOY.md`）
+
 サイト版 3.0 から、画面に出すのはコナステ版の情報だけにしました。実機版の称号一覧タブと差分タブはなくし、実機の条件原文は各称号の詳細にある「照合メモ」でだけ参照できます（照合データは内部参照として残しています）。
 
 ## 使い方
