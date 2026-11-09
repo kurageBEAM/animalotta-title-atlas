@@ -1,0 +1,43 @@
+</head><body>
+<a class="skip" href="#app">本文へ移動</a>
+<header class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="#" id="brandHome"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text"><span class="brand-name">称号アトラス</span><span class="brand-sub">アニマロッタ コナステ版</span></span></a>
+    <div class="top-actions">
+      <button class="btn ghost" id="assumpBtn">難易度の前提と出典</button>
+      <button class="btn ghost" id="saveBtn">セーブデータ</button>
+      <button class="btn ghost" id="exportBtn">CSVに保存</button>
+    </div>
+  </div>
+</header>
+<section class="hero wrap" id="hero" aria-label="獲得状況の全体図"></section>
+<div class="toolbar" id="toolbar">
+  <div class="wrap bar">
+    <nav class="tabs" role="tablist" aria-label="表示の切り替え">
+      <button class="tab active" data-view="list" role="tab" aria-selected="true">称号一覧</button>
+      <button class="tab" data-view="ranking" role="tab" aria-selected="false">難易度ランキング</button>
+      <button class="tab" data-view="tiered" role="tab" aria-selected="false">努力型</button>
+      <button class="tab" data-view="timeline" role="tab" aria-selected="false">タイムライン</button>
+    </nav>
+    <div class="searcharea"><input id="search" type="search" placeholder="称号名・条件・番号で検索" aria-label="称号を検索" autocomplete="off"></div>
+  </div>
+</div>
+<main class="wrap main"><div id="app"></div></main>
+<footer class="source">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-title">このサイトについて</p>
+      <p>コナステ版アニマロッタの称号330枠を、2026年11月8日の画面17ページから集計した非公式の個人用資料です。未取得の枠の名称と獲得条件は実機版の称号一覧（unyoko氏）の掲載順から推定したもので、確定情報ではありません。難易度は解析サイトの確率と本サイトの前提値から求めた目安で、公式発表の確率ではありません。獲得チェックとタイムラインはこのブラウザに自動保存され、「セーブデータ」からファイルに書き出して別の端末へ移せます。</p>
+    </div>
+    <div>
+      <p class="foot-title">確率の出典</p>
+      <p><a target="_blank" rel="noopener" href="https://monnpare.blogspot.com/2026/04/jpc_22.html">アニマロッタ解析（全JPC確率比較・各ゲームのペイアウト率）</a><br><a target="_blank" rel="noopener" href="https://qiita.com/TEA437354/items/ac014c89fb45da984729">Qiita: ワンダーチャンス突破率シミュレーション（TEA437354氏）</a><br><a target="_blank" rel="noopener" href="https://medalgamefan.com/animalotta/page002.htm">メダルゲームファン: アニマツリー到達確率・ビンゴガーデン</a><br><a target="_blank" rel="noopener" href="https://mabo-medalgame.com/animalotta-wc-jpc/">マボメダルゲーム: WCとJPCのルール＆確率</a><br><a target="_blank" rel="noopener" href="https://zisakuanimarotta.blogspot.com/2019/11/16-9po2.html">自作アニマロッタ: サンダースマッシュ・ヘブンツリーのシミュレーション</a><br><a target="_blank" rel="noopener" href="https://w.atwiki.jp/animalotta/pages/19.html">AnimaLotta@2ch wiki: 各種確率</a><br><a target="_blank" rel="noopener" href="https://byakuryu.seesaa.net/article/202101article_KONAST_AnimaLotta_animap.html">白龍の: コナステ版のアニマップ</a></p>
+    </div>
+    <div class="foot-meta">
+      <p>© KONAMI（ゲーム名・称号名の権利は各権利者に帰属）</p>
+      <p>サイト版 3.1 ／ 2026年11月9日</p>
+    </div>
+  </div>
+</footer>
+<div class="modal-overlay" id="overlay" role="presentation"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="dialogTitle" tabindex="-1"><button class="close" id="closeModal" aria-label="閉じる">×</button><div id="modalContent"></div></div></div>
+<input type="file" id="importFile" accept="application/json,.json" hidden>

@@ -1,0 +1,6446 @@
+{
+ "version": "1.8",
+ "built": "2026-11-09",
+ "roundsPerHour": 23,
+ "profile": "14面×100BET／約2.6分/ラウンド／ペイアウト85%仮定",
+ "unit": "期待所要ラウンド数（1ラウンド=1回のボール抽選、約2.6分）",
+ "thresholds": [
+  {
+   "rank": "F",
+   "max": 50,
+   "hours": 2.1739130434782608,
+   "label": "約2.2時間まで",
+   "stars": 1
+  },
+  {
+   "rank": "E",
+   "max": 150,
+   "hours": 6.521739130434782,
+   "label": "約6.5時間まで",
+   "stars": 1
+  },
+  {
+   "rank": "D",
+   "max": 250,
+   "hours": 10.869565217391305,
+   "label": "約11時間まで",
+   "stars": 2
+  },
+  {
+   "rank": "C",
+   "max": 500,
+   "hours": 21.73913043478261,
+   "label": "約22時間まで",
+   "stars": 2
+  },
+  {
+   "rank": "B",
+   "max": 950,
+   "hours": 41.30434782608695,
+   "label": "約41時間まで",
+   "stars": 3
+  },
+  {
+   "rank": "B+",
+   "max": 1300,
+   "hours": 56.52173913043478,
+   "label": "約57時間まで",
+   "stars": 3
+  },
+  {
+   "rank": "A",
+   "max": 2000,
+   "hours": 86.95652173913044,
+   "label": "約87時間まで",
+   "stars": 4
+  },
+  {
+   "rank": "A+",
+   "max": 3000,
+   "hours": 130.43478260869566,
+   "label": "約130時間まで",
+   "stars": 4
+  },
+  {
+   "rank": "S",
+   "max": 6500,
+   "hours": 282.60869565217394,
+   "label": "約283時間まで",
+   "stars": 5
+  },
+  {
+   "rank": "S+",
+   "max": 12500,
+   "hours": 543.4782608695652,
+   "label": "約543時間まで",
+   "stars": 5
+  },
+  {
+   "rank": "SS",
+   "max": null,
+   "hours": null,
+   "label": "約543時間超（運極・事実上不可を含む）",
+   "stars": 5
+  }
+ ],
+ "stars": {
+  "F": 1,
+  "E": 1,
+  "D": 2,
+  "C": 2,
+  "B": 3,
+  "B+": 3,
+  "A": 4,
+  "A+": 4,
+  "S": 5,
+  "S+": 5,
+  "SS": 5
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "T1",
+   "desc": "累計WIN 1,000枚"
+  },
+  {
+   "tier": 2,
+   "label": "T2",
+   "desc": "累計WIN 1万枚／総WIN 100万枚"
+  },
+  {
+   "tier": 3,
+   "label": "T3",
+   "desc": "累計WIN 10万枚／総WIN 500万枚"
+  },
+  {
+   "tier": 4,
+   "label": "T4",
+   "desc": "累計WIN 100万枚／総WIN 1,000万枚"
+  },
+  {
+   "tier": 5,
+   "label": "T5",
+   "desc": "累計WIN 200万枚／総WIN 2,000万枚"
+  }
+ ],
+ "assumptions": [
+  {
+   "item": "1ラウンド",
+   "value": "1回のボール抽選（約2.6分）。マルチ系モードでは複数ゲームが同時に決着する",
+   "kind": "定義",
+   "src": []
+  },
+  {
+   "item": "ラウンド/時間",
+   "value": "23ラウンド/時間（約2.6分/ラウンド）",
+   "kind": "利用者申告",
+   "src": []
+  },
+  {
+   "item": "同時プレーゲーム数",
+   "value": "14ゲーム/ラウンド × 100BET（超極マルチ14面）",
+   "kind": "利用者申告",
+   "src": []
+  },
+  {
+   "item": "WIN枚数/ラウンド",
+   "value": "1,190枚（14ゲーム×100BET×ペイアウト85%）。累計WIN系はこの値に比例して難易度が変わる",
+   "kind": "申告BET＋ペイアウト推定",
+   "src": []
+  },
+  {
+   "item": "ワンダーチャンス出現率",
+   "value": "1/7ラウンド",
+   "kind": "資料（体感仮定と明記）",
+   "src": [
+    "monnpare_jp"
+   ]
+  },
+  {
+   "item": "WC種別の出現比",
+   "value": "スターダスト3/7、ムーンライト・サンシャイン・ドリーム・ファンタジー各1/7",
+   "kind": "資料（仮定と明記）",
+   "src": [
+    "monnpare_all"
+   ]
+  },
+  {
+   "item": "WC突破率（JPC進出）",
+   "value": "ムーンライト・サンシャイン・ドリーム1/7、スターダスト・ファンタジー1/8、コンプリート1/8（推定）",
+   "kind": "資料（統計）",
+   "src": [
+    "monnpare_all"
+   ]
+  },
+  {
+   "item": "JPCでのJP獲得率",
+   "value": "スターダスト19.7%／ムーンライト33.7%／サンシャイン37.1%／ドリーム28.5%／ファンタジー28.9%／コンプリート21.6%",
+   "kind": "資料（計算値）",
+   "src": [
+    "monnpare_all",
+    "monnpare_jp",
+    "monnpare_ssjpc"
+   ]
+  },
+  {
+   "item": "ワンダースロット倍率の出現率",
+   "value": "ビッグ20%／スーパー10%／アルティメット5%／ゴッド2%／クリスタル4%（WC1回あたり）",
+   "kind": "推定",
+   "src": []
+  },
+  {
+   "item": "クリスタルJPC",
+   "value": "クリスタルWCからJPC到達30%、JP率25%（アイテム別21.2〜35.3%）",
+   "kind": "資料＋推定",
+   "src": [
+    "monnpare_jp"
+   ]
+  },
+  {
+   "item": "虹色リンゴ（JPC直行）",
+   "value": "1/500ラウンド、JPC種別は5種均等",
+   "kind": "推定",
+   "src": [
+    "mgf_bbs"
+   ]
+  },
+  {
+   "item": "スター獲得",
+   "value": "0.4個/ラウンド",
+   "kind": "校正",
+   "src": [
+    "snapshot"
+   ]
+  },
+  {
+   "item": "1ゲームの配当発生率",
+   "value": "60%",
+   "kind": "推定",
+   "src": []
+  },
+  {
+   "item": "コンプリートWC解放",
+   "value": "5種WC突破まで期待約140WC（100WCで約24%、350WCで95%）",
+   "kind": "資料（試算）",
+   "src": [
+    "monnpare_all"
+   ]
+  },
+  {
+   "item": "各ゲームの最高役・特殊役",
+   "value": "2026-11-09に解析サイト6系統（アニマロッタ解析・自作アニマロッタ・メダルゲームファン・マボ・2ch wiki・ニコニコ大百科）を調査。公開シミュレーション値のある役（ビンゴファーム・ハニーエイト／ファイブ・ハッピーフラワー・ファンシーフラワー・メテオボンバー・マジカルマイン・アニマツリー・ビンゴガーデン・サンダースマッシュ・ヘブンツリー）はその値を採用し、分母は「1カード×1ゲーム」＝1ラウンドに1面で遊ぶ換算。記載のない役（セブンバルーン・BLACKOUT・惑星キャッチャー・奇跡の錬金術・アニマドロップ全消し・ミラクルルーレット等）は主観的推定のまま",
+   "kind": "資料＋推定",
+   "src": [
+    "monnpare_bf",
+    "monnpare_honey",
+    "monnpare_hf",
+    "monnpare_meteor",
+    "monnpare_mm",
+    "mgf_tree",
+    "mgf_bg",
+    "zisaku_ts",
+    "zisaku_ht",
+    "snapshot"
+   ]
+  },
+  {
+   "item": "ペイアウト率の参考値",
+   "value": "解析サイトのゲーム別PO：ビンゴファーム84%／ハニーエイト77.7〜81.3%／チェーンボンバー約80%／ハッピーフラワー86.3%／マジカルマイン107%（特定カード）／メテオボンバー91〜140%（最高設定）／ビンゴショット115%（特定カード）。実機最高設定の実測（109ゲーム）はバルーン95・ドロップ101・ガーデン91・ファーム90%。本モデルの一律85%は維持",
+   "kind": "資料（参考）",
+   "src": [
+    "monnpare_bf",
+    "monnpare_honey",
+    "monnpare_cb",
+    "monnpare_hf",
+    "monnpare_mm",
+    "monnpare_meteor",
+    "zisaku_max"
+   ]
+  },
+  {
+   "item": "クエスト",
+   "value": "1件クリアあたり25ラウンド、通常クエストは全128種",
+   "kind": "推定",
+   "src": []
+  },
+  {
+   "item": "別ゲームからの類推",
+   "value": "資料のない役のうち同じ仕組みの役は、資料のある別ゲームの値から比率で推定（アニマドロップの全消し2〜3回＝1回の率×継続率の幾何級数、ハニーファイブ5連＝ハニーエイトの連荘継続率、ミラクルマイン全消し＝マジカルマイン全消し、アニマツリー累計階＝到達階の平均）。根拠に「類推」と元ゲームを明記",
+   "kind": "類推（2026-11-09）",
+   "src": [
+    "monnpare_honey",
+    "monnpare_mm",
+    "mgf_tree",
+    "user_report"
+   ]
+  },
+  {
+   "item": "ヘブンチャレンジの発生頻度",
+   "value": "約75ラウンドに1回（利用者体感「50〜100ラウンドに1回」の中央値）。1チャレンジあたりの確率はアニマロッタ解析の1,000万回シミュレーション（5HIT 14%・7HIT 0.4%・りんご5個 0.05%）を使用。5種×2HIT（No.38）は利用者体感「5HITの2〜3倍難しい」から5%/チャレンジ",
+   "kind": "利用者体感（2026-11-09）",
+   "src": [
+    "user_report",
+    "monnpare_hc"
+   ]
+  },
+  {
+   "item": "努力型（Tiered Achievement）",
+   "value": "ゲーム別の累計WIN（1,000／1万／10万／100万／200万枚、63件）と総WIN（100万／500万／1,000万／2,000万枚、4件）は確率ではなくBET額×プレー量で決まるため F〜SS の対象から外し、枚数の段階で Tier 1〜5 を付与。期待所要ラウンドは14面×100BET×ペイアウト85%で算出（高BETなら短縮）",
+   "kind": "定義（2026-11-09 利用者レビュー）",
+   "src": []
+  }
+ ],
+ "sources": {
+  "monnpare_jp": {
+   "label": "アニマロッタ解析「各種JPの確率について」(2026-04)",
+   "url": "https://monnpare.blogspot.com/2026/04/jp.html"
+  },
+  "monnpare_ssjpc": {
+   "label": "アニマロッタ解析「サンシャインJPCの確率について」(2026-04)",
+   "url": "https://monnpare.blogspot.com/2026/04/jpc.html"
+  },
+  "monnpare_all": {
+   "label": "アニマロッタ解析「アニマロッタ全JPC確率比較」(2026-04)",
+   "url": "https://monnpare.blogspot.com/2026/04/jpc_22.html"
+  },
+  "qiita_ss": {
+   "label": "Qiita: アニマロッタ6 サンシャインWCの突破率 (TEA437354)",
+   "url": "https://qiita.com/TEA437354/items/ac014c89fb45da984729"
+  },
+  "mabo_wcjpc": {
+   "label": "マボメダルゲーム「WCとJPCのルール＆確率」アニマロッタ8（ムーンライトJPC各Round突破率）",
+   "url": "https://mabo-medalgame.com/animalotta-wc-jpc/"
+  },
+  "nico_dic": {
+   "label": "ニコニコ大百科「アニマロッタ」（ムーンライトJPCのポケット数と理論値）",
+   "url": "https://dic.nicovideo.jp/a/%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AD%E3%83%83%E3%82%BF"
+  },
+  "user_report": {
+   "label": "利用者（コナステ版ヘビープレーヤー）の体感報告 2026-11-09",
+   "url": ""
+  },
+  "mgf_tree": {
+   "label": "メダルゲームファン: アニマツリー各階到達確率（初代、1,000万回シミュレーション）",
+   "url": "https://medalgamefan.com/animalotta/page002.htm"
+  },
+  "mgf_bg": {
+   "label": "メダルゲームファン: ビンゴガーデン カード別4ラインビンゴ確率・PO理論値（初代）",
+   "url": "https://medalgamefan.com/animalotta/bingogarden.htm"
+  },
+  "atwiki_prob": {
+   "label": "AnimaLotta@2ch wiki「各種確率」（初代、2011年の計算値）",
+   "url": "https://w.atwiki.jp/animalotta/pages/19.html"
+  },
+  "monnpare_bf": {
+   "label": "アニマロッタ解析「ビンゴファームのペイアウト率」(2026-04、コナステ14面前提のシミュレーション)",
+   "url": "https://monnpare.blogspot.com/2026/04/blog-post_30.html"
+  },
+  "monnpare_honey": {
+   "label": "アニマロッタ解析「ハニーエイト・ハニーファイブのペイアウト率」(2026-04)",
+   "url": "https://monnpare.blogspot.com/2026/04/blog-post_27.html"
+  },
+  "monnpare_cb": {
+   "label": "アニマロッタ解析「チェーンボンバーのペイアウト率」(2026-04)",
+   "url": "https://monnpare.blogspot.com/2026/04/blog-post_26.html"
+  },
+  "monnpare_hc": {
+   "label": "アニマロッタ解析: ヘブンチャレンジの1,000万回シミュレーション（クエスト難易度の記事内）",
+   "url": "https://monnpare.blogspot.com/"
+  },
+  "monnpare_hf": {
+   "label": "アニマロッタ解析「ハッピーフラワーの設定について」(2026-04、全獲り率・ファンシーフラワー全獲り理論値)",
+   "url": "https://monnpare.blogspot.com/2026/04/blog-post_19.html"
+  },
+  "monnpare_meteor": {
+   "label": "アニマロッタ解析「最高設定時のメテオボンバー解析」(2022-04、各100万回シミュレーション)",
+   "url": "https://monnpare.blogspot.com/2022/04/blog-post_6.html"
+  },
+  "monnpare_mm": {
+   "label": "アニマロッタ解析「マジカルマインのシミュレーション(4) ペイアウト率及び全消し率」(2024-06、600回)",
+   "url": "https://monnpare.blogspot.com/2024/06/4.html"
+  },
+  "zisaku_ts": {
+   "label": "自作アニマロッタ「16-9 サンダースマッシュのPO率(2)」(2019-11、アニマロッタ5世代の自作再現シミュレーション)",
+   "url": "https://zisakuanimarotta.blogspot.com/2019/11/16-9po2.html"
+  },
+  "zisaku_ht": {
+   "label": "自作アニマロッタ「18-3 ヘブンツリーのPO率」(2019-12、自作再現シミュレーション)",
+   "url": "https://zisakuanimarotta.blogspot.com/2019/12/18-3po.html"
+  },
+  "zisaku_max": {
+   "label": "自作アニマロッタ「14-9 アニマロッタの最高設定について」(2019-09、実機109ゲームのPO率)",
+   "url": "https://zisakuanimarotta.blogspot.com/2019/09/14-9.html"
+  },
+  "qiita_ml": {
+   "label": "Qiita: アニマロッタ6 ムーンライトWCの突破率 (TEA437354)",
+   "url": "https://qiita.com/TEA437354/items/61602956972910d9c423"
+  },
+  "qiita_std": {
+   "label": "Qiita: アニマロッタ6 スターダストWCの突破率 (TEA437354)",
+   "url": "https://qiita.com/TEA437354/items/162ef6e3c84fcfae7a41"
+  },
+  "mgf_wc": {
+   "label": "メダルゲームファン: WCメダル獲得期待値一覧（ライン成立率・JPC突入率）",
+   "url": "https://medalgamefan.com/animalotta/page003.htm"
+  },
+  "mgf_bbs": {
+   "label": "メダルゲームファン掲示板: アニマロッタ コナステ 攻略･雑談",
+   "url": "https://medalgamefan.com/bbs/reply.php?topicid=612"
+  },
+  "byakuryu": {
+   "label": "白龍の: コナステ版のアニマップ（各マップのスター必要数）",
+   "url": "https://byakuryu.seesaa.net/article/202101article_KONAST_AnimaLotta_animap.html"
+  },
+  "unyoko": {
+   "label": "実機アニマロッタ8 称号一覧（unyoko氏）",
+   "url": "https://blog.livedoor.jp/unyoko/archives/52152444.html"
+  },
+  "official": {
+   "label": "KONAMI お知らせ: アニマロッタ アニマと星の物語 コナステ",
+   "url": "https://p.eagate.573.jp/game/lotta/anknst/eacloud/p/news/datainfo_off_anm.html"
+  },
+  "snapshot": {
+   "label": "2026-11-08 コナステ画面17枚の獲得状況による校正",
+   "url": ""
+  }
+ },
+ "byId": {
+  "1": {
+   "r": 1,
+   "h": 0.0,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "確定",
+   "basis": "プレーすれば獲得",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "2": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ツナガロッタとの連動プレーが条件。コナステ版アニマロッタ単体では達成できない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "3": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "カラコロッタ・ツナガロッタとの連動プレーが条件。コナステ版アニマロッタ単体では達成できない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "4": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "カラコロッタとの連動プレーが条件。コナステ版アニマロッタ単体では達成できない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "5": {
+   "r": 1,
+   "h": 0.0,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "チュートリアルを1回クリア",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "6": {
+   "r": 50.0,
+   "h": 2.2,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "オールモードは「雲の大樹」マップでスター20個を消費して解放（白龍）。スター0.4個/ラウンドで約50ラウンド",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "7": {
+   "r": 544.4,
+   "h": 23.7,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "スターダストWCの0ライン終了率を約3%と仮定（medalgamefanのカード別0ライン率0.2〜5.4%）× STD出現比3/7",
+   "src": [
+    "mgf_wc"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "8": {
+   "r": 35.0,
+   "h": 1.5,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ワンダースロットでビッグが選ばれる確率を20%/WCと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "9": {
+   "r": 70.0,
+   "h": 3.0,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ワンダースロットでスーパーが選ばれる確率を10%/WCと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "10": {
+   "r": 140.0,
+   "h": 6.1,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ワンダースロットでアルティメットが選ばれる確率を5%/WCと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "11": {
+   "r": 350.0,
+   "h": 15.2,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ワンダースロットでゴッドが選ばれる確率を2%/WCと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "12": {
+   "r": 175.0,
+   "h": 7.6,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ワンダースロットでクリスタルが選ばれる確率を4%/WCと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "13": {
+   "r": 49.0,
+   "h": 2.1,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ムーンライトWCの出現比1/7（全JPC確率比較の仮定）→ 期待7WC",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "14": {
+   "r": 49.0,
+   "h": 2.1,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "サンシャインWCの出現比1/7（全JPC確率比較の仮定）→ 期待7WC",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "15": {
+   "r": 98000.0,
+   "h": 4260.9,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンシャインWCは3ゲーム合計20体以上で成功（8〜13%）。全員回収は回収上限付近が必要。Qiitaの「10〜12体回収」0.5〜1.9%、「9体以下」0.001〜0.06%という分布から、全回収を0.05%/回と推定",
+   "src": [
+    "qiita_ss"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "16": {
+   "r": 14700.0,
+   "h": 639.1,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "追加アニマ数は盤面状況に依存する内部仕様。利用者の体感「サンシャインWC数百回に1回」を採用し1/300回と推定（以前は0.05%/回でSS）",
+   "src": [
+    "user_report",
+    "qiita_ss"
+   ],
+   "note": "利用者体感で補正",
+   "obtainable": true
+  },
+  "17": {
+   "r": 49.0,
+   "h": 2.1,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ドリームWCの出現比1/7（全JPC確率比較の仮定）→ 期待7WC",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "18": {
+   "r": 2450.0,
+   "h": 106.5,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ドリームWCの歩数分布は未解析。1歩も進めずに終了する確率を2%/回と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "19": {
+   "r": 49.0,
+   "h": 2.1,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ファンタジーWCの出現比1/7（全JPC確率比較の仮定）→ 期待7WC",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "20": {
+   "r": 980.0,
+   "h": 42.6,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "5種WC（STD/ML/SS/DR/FA）の突破に必要なWC数：100回で約24%、350回で95%、挑戦可能まで約140WC",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "21": {
+   "r": 1029.0,
+   "h": 44.7,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "5種突破（約140WC）で解放後、コンプリートWCの出現比を1/7と仮定して+7WC",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "22": {
+   "r": 166.7,
+   "h": 7.2,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "平均突破率1/7.5で10連敗に到達する期待WC数≒24回。数字付き称号は連敗数で更新",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "23": {
+   "r": 52.6,
+   "h": 2.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "WC平均突破率≒1/7.5（種別ごと1/7〜1/8）→ 期待7.5WC",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "24": {
+   "r": 100.0,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "3ゲーム制WCの突破のうち2ゲーム目までに決まる割合を約半数（突破率の約半分=7%/WC）と仮定",
+   "src": [
+    "qiita_ml",
+    "qiita_std"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "25": {
+   "r": 280.0,
+   "h": 12.2,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "STD WC 1ゲーム突破≒3%（×3/7）＋ML WC 1ゲーム突破3.3〜13.9%（×1/7）≒2.5%/WC",
+   "src": [
+    "qiita_ml",
+    "qiita_std"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "26": {
+   "r": 263.2,
+   "h": 11.4,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ビッグ出現20%（推定）× 平均突破率1/7.5",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "27": {
+   "r": 526.3,
+   "h": 22.9,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "スーパー出現10%（推定）× 平均突破率1/7.5",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "28": {
+   "r": 1052.6,
+   "h": 45.8,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "アルティメット出現5%（推定）× 平均突破率1/7.5",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "29": {
+   "r": 2631.6,
+   "h": 114.4,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ゴッド出現2%（推定）× 平均突破率1/7.5",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "30": {
+   "r": 583.3,
+   "h": 25.4,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クリスタル出現4% × クリスタルチャレンジ到達30%と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "31": {
+   "r": 343.0,
+   "h": 14.9,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ムーンライトWC出現比1/7 × 突破率1/7（全JPC確率比較の統計）",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "32": {
+   "r": 343.0,
+   "h": 14.9,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "サンシャインWC出現比1/7 × 突破率1/7（全JPC確率比較の統計）",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "33": {
+   "r": 343.0,
+   "h": 14.9,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ドリームWC出現比1/7 × 突破率1/7（全JPC確率比較の統計）",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "34": {
+   "r": 392.0,
+   "h": 17.0,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ファンタジーWC出現比1/7 × 突破率1/8（全JPC確率比較の統計）",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "35": {
+   "r": 1372.0,
+   "h": 59.7,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "5種突破（約140WC）で解放後、コンプリートWC出現比1/7 × 突破率1/8（推定）",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "36": {
+   "r": 300.0,
+   "h": 13.0,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ヘブンチャレンジ（約75ラウンドに1回、利用者体感）中にリンゴ1個以上を獲得する確率を25%/チャレンジと仮定",
+   "src": [
+    "user_report"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "37": {
+   "r": 535.7,
+   "h": 23.3,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ヘブンチャレンジ（約75ラウンドに1回、利用者体感）× ベット対象アニマ5HIT 14%/チャレンジ（アニマロッタ解析の1,000万回シミュレーション）",
+   "src": [
+    "user_report",
+    "monnpare_hc"
+   ],
+   "note": "発生頻度は体感値",
+   "obtainable": true
+  },
+  "38": {
+   "r": 1500.0,
+   "h": 65.2,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ヘブンチャレンジ（約75ラウンドに1回、利用者体感）× 5種各2HIT 5%/チャレンジ（追加球なしの組合せ値1.2%に、2HITごとの追加5球と利用者体感「5HITの2〜3倍難」を加味）",
+   "src": [
+    "user_report",
+    "monnpare_hc"
+   ],
+   "note": "1チャレンジあたりの率は体感",
+   "obtainable": true
+  },
+  "39": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "虹色リンゴを1/500ラウンド、直行先JPCは5種均等と仮定 → スターダスト直行は1/2,500ラウンド",
+   "src": [
+    "mgf_bbs"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "40": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "虹色リンゴを1/500ラウンド、直行先JPCは5種均等と仮定 → ムーンライト直行は1/2,500ラウンド",
+   "src": [
+    "mgf_bbs"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "41": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "虹色リンゴを1/500ラウンド、直行先JPCは5種均等と仮定 → サンシャイン直行は1/2,500ラウンド",
+   "src": [
+    "mgf_bbs"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "42": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "虹色リンゴを1/500ラウンド、直行先JPCは5種均等と仮定 → ドリーム直行は1/2,500ラウンド",
+   "src": [
+    "mgf_bbs"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "43": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "虹色リンゴを1/500ラウンド、直行先JPCは5種均等と仮定 → ファンタジー直行は1/2,500ラウンド",
+   "src": [
+    "mgf_bbs"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "44": {
+   "r": 2430.9,
+   "h": 105.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "5種JPのWC1回あたり獲得確率（STD1.06%／ML0.69%／SS0.76%／DR0.58%／FA0.52%）から、全5種を揃える期待WC数を包除原理で算出",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "45": {
+   "r": 60,
+   "h": 2.6,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ヘブンステップ（ヘブンツリーのリンゴ）。約60ラウンドに1回と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "46": {
+   "r": 830.9,
+   "h": 36.1,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "STD JP（WC1回あたり1.06%）× 等倍の割合641/803（配当比641:102:45:11:4）",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "47": {
+   "r": 1690.3,
+   "h": 73.5,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "虹色リンゴ1/500ラウンド（仮定） × 直行先5種JPCのJP率平均29.6%（STD19.7／ML33.7／SS37.1／DR28.5／FA28.9%）",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "48": {
+   "r": 11666.7,
+   "h": 507.2,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "5,000枚以上のJPはファンタジー高倍率・スターダスト10倍・コンプリートJPなどに限られる。WC1回あたり0.06%と仮定",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "49": {
+   "r": 974.7,
+   "h": 42.4,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ビッグ出現20%（推定）× 突破1/7.5 × JP率27%",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "50": {
+   "r": 1949.3,
+   "h": 84.8,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "スーパー出現10%（推定）× 突破1/7.5 × JP率27%",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "51": {
+   "r": 3898.6,
+   "h": 169.5,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "アルティメット出現5%（推定）× 突破1/7.5 × JP率27%",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "52": {
+   "r": 9746.6,
+   "h": 423.8,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ゴッド出現2%（推定）× 突破1/7.5 × JP率27%",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "53": {
+   "r": 2333.3,
+   "h": 101.4,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "クリスタル出現4%（推定）× JPC到達30%（推定）× クリスタルJP率25%（アイテム別21.2〜35.3%）",
+   "src": [
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "54": {
+   "r": 11268.0,
+   "h": 489.9,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ビッグ〜クリスタルの5種JPを全て揃える期待WC数（包除原理）。ゴッドJP（0.07%/WC）が支配的",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "55": {
+   "r": 7777.8,
+   "h": 338.2,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クリスタルJPのうち倍率×2アイテム選択時の割合を30%と仮定",
+   "src": [
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "56": {
+   "r": 1016.1,
+   "h": 44.2,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ムーンライトJPC（WC1回あたり2.04%）× 累積突破率33.76%（Round 2突破＝ムーンライトJP）。各Round突破率は1st 67.23%・2nd 50.21%・3rd 31.85%・4th 15.36%・Last 4.00%（5球/5穴→1球/1穴の理論値）",
+   "src": [
+    "mabo_wcjpc",
+    "nico_dic",
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "57": {
+   "r": 3190.3,
+   "h": 138.7,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ムーンライトJPC（WC1回あたり2.04%）× 累積突破率10.75%（Round 3突破）。各Round突破率は1st 67.23%・2nd 50.21%・3rd 31.85%・4th 15.36%・Last 4.00%（5球/5穴→1球/1穴の理論値）",
+   "src": [
+    "mabo_wcjpc",
+    "nico_dic",
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "58": {
+   "r": 20770.2,
+   "h": 903.1,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ムーンライトJPC（WC1回あたり2.04%）× 累積突破率1.65%（Round 4突破）。各Round突破率は1st 67.23%・2nd 50.21%・3rd 31.85%・4th 15.36%・Last 4.00%（5球/5穴→1球/1穴の理論値）",
+   "src": [
+    "mabo_wcjpc",
+    "nico_dic",
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "59": {
+   "r": 519254.4,
+   "h": 22576.3,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ムーンライトJPC（WC1回あたり2.04%）× 累積突破率0.07%（Round 5（Last）突破）。各Round突破率は1st 67.23%・2nd 50.21%・3rd 31.85%・4th 15.36%・Last 4.00%（5球/5穴→1球/1穴の理論値）",
+   "src": [
+    "mabo_wcjpc",
+    "nico_dic",
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "60": {
+   "r": 924.5,
+   "h": 40.2,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "サンシャインJPC（WC1回あたり2.04%）× JP率37.1%。1箇所4HITが基本形",
+   "src": [
+    "monnpare_all",
+    "monnpare_ssjpc"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "61": {
+   "r": 7396.2,
+   "h": 321.6,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンシャインJPのうち2箇所4HITの割合を1/8と仮定",
+   "src": [
+    "monnpare_ssjpc"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "62": {
+   "r": 55471.7,
+   "h": 2411.8,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンシャインJPのうち3箇所以上4HITの割合を1/60と仮定",
+   "src": [
+    "monnpare_ssjpc"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "63": {
+   "r": 1203.5,
+   "h": 52.3,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ドリームJPC（WC1回あたり2.04%）× JP率28.5%",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "64": {
+   "r": 6017.5,
+   "h": 261.6,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ドリームJPのうち2倍以上の割合を20%と仮定",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "65": {
+   "r": 1356.4,
+   "h": 59.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ファンタジーJPC（WC1回あたり1.79%）× JP率28.9%",
+   "src": [
+    "monnpare_all",
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "66": {
+   "r": 32666.7,
+   "h": 1420.3,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ファンタジーJPCで25倍以上は0.65%（monnpare）。20倍以上を約1.2%/JPCと推定 → WC1回あたり0.021%",
+   "src": [
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "67": {
+   "r": 2794.8,
+   "h": 121.5,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "5種突破（約140WC）で解放後、コンプリートWC1/7 × 突破1/8 × JP率21.6%",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "68": {
+   "r": 972.8,
+   "h": 42.3,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ミラクルルーレットの出現条件・分布は未解析。JP獲得（WC1回あたり約3.6%）ごとに抽選され、×3が20%と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "69": {
+   "r": 1945.5,
+   "h": 84.6,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ミラクルルーレットの出現条件・分布は未解析。JP獲得（WC1回あたり約3.6%）ごとに抽選され、×5が10%と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "70": {
+   "r": 6485.2,
+   "h": 282.0,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ミラクルルーレットの出現条件・分布は未解析。JP獲得（WC1回あたり約3.6%）ごとに抽選され、×10が3%と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "71": {
+   "r": 100.0,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "チェーンボンバー 発掘列：1プレーあたり約2と仮定 → 累計200に約100プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "72": {
+   "r": 200.0,
+   "h": 8.7,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴガーデン ライン：1プレーあたり約0.5と仮定 → 累計100に約200プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "73": {
+   "r": 400.0,
+   "h": 17.4,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "アニマツリー 階：1プレーあたり約2.5（メダルゲームファンの初代シミュレーションで1ゲーム平均2.45〜2.57階） → 累計1,000に約400プレー（1ラウンド1プレー換算）",
+   "src": [
+    "mgf_tree"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "74": {
+   "r": 296.0,
+   "h": 12.9,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ハニーエイト/ファイブ ハチミツ：1プレーあたり約3と仮定 → 累計888に約296プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "75": {
+   "r": 588.2,
+   "h": 25.6,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴファーム ライン：1プレーあたり約0.85と仮定 → 累計500に約588プレー（1ラウンド1プレー換算）。アニマロッタ解析のFREE個数別シミュレーション（緑FREE9個で0.853ライン＝PO83.5%、5〜15個で0.62〜1.25ライン）のうち、本サイトのペイアウト85%前提と整合する値を採用（2026-11-09 外部レポート照合で1.0から下方修正）",
+   "src": [
+    "monnpare_bf"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "76": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fiアニマスロットはコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "77": {
+   "r": 142.9,
+   "h": 6.2,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴバルーン ライン：1プレーあたり約0.7と仮定 → 累計100に約143プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "78": {
+   "r": 100.0,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ハッピーフラワー 花：1プレーあたり約2と仮定 → 累計200に約100プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "79": {
+   "r": 250.0,
+   "h": 10.9,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマドロップ 全消し：1プレーあたり約0.04（全消し1回＝1/25ゲームの仮定と同じ値） → 累計10に約250プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "全消し1回の率に連動",
+   "obtainable": true
+  },
+  "80": {
+   "r": 500.0,
+   "h": 21.7,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンダースマッシュ 破壊：1プレーあたり約20と仮定 → 累計10,000に約500プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "81": {
+   "r": 200.0,
+   "h": 8.7,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "トゥインクルリンク LINK：1プレーあたり約5と仮定 → 累計1,000に約200プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "82": {
+   "r": 100.0,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "メテオボンバー 宝箱：1プレーあたり約1と仮定 → 累計100に約100プレー（1ラウンド1プレー換算）。アニマロッタ解析のシミュレーションでは宝箱0.87〜1.28個/プレー（最高設定・配布カード）",
+   "src": [
+    "monnpare_meteor"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "83": {
+   "r": 200.0,
+   "h": 8.7,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴショット ライン：1プレーあたり約1と仮定 → 累計200に約200プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "84": {
+   "r": 133.3,
+   "h": 5.8,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "マジカルマイン 宝箱：1プレーあたり約1.5と仮定 → 累計200に約133プレー（1ラウンド1プレー換算）。アニマロッタ解析の特定カード600回シミュレーションで1.50個/プレー（6箱の獲得率24/45/30/21/15/15%）",
+   "src": [
+    "monnpare_mm"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "85": {
+   "r": 142.9,
+   "h": 6.2,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴエリクサー ライン：1プレーあたり約0.7と仮定 → 累計100に約143プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "86": {
+   "r": 500.0,
+   "h": 21.7,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "チェーンボンバー 発掘列：1プレーあたり約2と仮定 → 累計1,000に約500プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "87": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴガーデン ライン：1プレーあたり約0.5と仮定 → 累計500に約1,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "88": {
+   "r": 2000.0,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "アニマツリー 階：1プレーあたり約2.5（メダルゲームファンの初代シミュレーションで1ゲーム平均2.45〜2.57階） → 累計5,000に約2,000プレー（1ラウンド1プレー換算）",
+   "src": [
+    "mgf_tree"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "89": {
+   "r": 2962.7,
+   "h": 128.8,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ハニーエイト/ファイブ ハチミツ：1プレーあたり約3と仮定 → 累計8,888に約2,963プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "90": {
+   "r": 2352.9,
+   "h": 102.3,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴファーム ライン：1プレーあたり約0.85と仮定 → 累計2,000に約2,353プレー（1ラウンド1プレー換算）。アニマロッタ解析のFREE個数別シミュレーション（緑FREE9個で0.853ライン＝PO83.5%、5〜15個で0.62〜1.25ライン）のうち、本サイトのペイアウト85%前提と整合する値を採用（2026-11-09 外部レポート照合で1.0から下方修正）",
+   "src": [
+    "monnpare_bf"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "91": {
+   "r": 714.3,
+   "h": 31.1,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴバルーン ライン：1プレーあたり約0.7と仮定 → 累計500に約714プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "92": {
+   "r": 500.0,
+   "h": 21.7,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ハッピーフラワー 花：1プレーあたり約2と仮定 → 累計1,000に約500プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "93": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマドロップ 全消し：1プレーあたり約0.04（全消し1回＝1/25ゲームの仮定と同じ値） → 累計100に約2,500プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "全消し1回の率に連動",
+   "obtainable": true
+  },
+  "94": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンダースマッシュ 破壊：1プレーあたり約20と仮定 → 累計50,000に約2,500プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "95": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "トゥインクルリンク LINK：1プレーあたり約5と仮定 → 累計5,000に約1,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "96": {
+   "r": 500.0,
+   "h": 21.7,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "メテオボンバー 宝箱：1プレーあたり約1と仮定 → 累計500に約500プレー（1ラウンド1プレー換算）。アニマロッタ解析のシミュレーションでは宝箱0.87〜1.28個/プレー（最高設定・配布カード）",
+   "src": [
+    "monnpare_meteor"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "97": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴショット ライン：1プレーあたり約1と仮定 → 累計1,000に約1,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "98": {
+   "r": 666.7,
+   "h": 29.0,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "マジカルマイン 宝箱：1プレーあたり約1.5と仮定 → 累計1,000に約667プレー（1ラウンド1プレー換算）。アニマロッタ解析の特定カード600回シミュレーションで1.50個/プレー（6箱の獲得率24/45/30/21/15/15%）",
+   "src": [
+    "monnpare_mm"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "99": {
+   "r": 714.3,
+   "h": 31.1,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴエリクサー ライン：1プレーあたり約0.7と仮定 → 累計500に約714プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "100": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "チェーンボンバー 発掘列：1プレーあたり約2と仮定 → 累計2,000に約1,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "101": {
+   "r": 2000.0,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴガーデン ライン：1プレーあたり約0.5と仮定 → 累計1,000に約2,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "102": {
+   "r": 4000.0,
+   "h": 173.9,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "アニマツリー 階：1プレーあたり約2.5（メダルゲームファンの初代シミュレーションで1ゲーム平均2.45〜2.57階） → 累計10,000に約4,000プレー（1ラウンド1プレー換算）",
+   "src": [
+    "mgf_tree"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "103": {
+   "r": 29629.3,
+   "h": 1288.2,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ハニーエイト/ファイブ ハチミツ：1プレーあたり約3と仮定 → 累計88,888に約29,629プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "104": {
+   "r": 5882.4,
+   "h": 255.8,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴファーム ライン：1プレーあたり約0.85と仮定 → 累計5,000に約5,882プレー（1ラウンド1プレー換算）。アニマロッタ解析のFREE個数別シミュレーション（緑FREE9個で0.853ライン＝PO83.5%、5〜15個で0.62〜1.25ライン）のうち、本サイトのペイアウト85%前提と整合する値を採用（2026-11-09 外部レポート照合で1.0から下方修正）",
+   "src": [
+    "monnpare_bf"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "105": {
+   "r": 1428.6,
+   "h": 62.1,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴバルーン ライン：1プレーあたり約0.7と仮定 → 累計1,000に約1,429プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "106": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ハッピーフラワー 花：1プレーあたり約2と仮定 → 累計2,000に約1,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "107": {
+   "r": 12500.0,
+   "h": 543.5,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマドロップ 全消し：1プレーあたり約0.04（全消し1回＝1/25ゲームの仮定と同じ値） → 累計500に約12,500プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "全消し1回の率に連動",
+   "obtainable": true
+  },
+  "108": {
+   "r": 5000.0,
+   "h": 217.4,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンダースマッシュ 破壊：1プレーあたり約20と仮定 → 累計100,000に約5,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "109": {
+   "r": 2000.0,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "トゥインクルリンク LINK：1プレーあたり約5と仮定 → 累計10,000に約2,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "110": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "メテオボンバー 宝箱：1プレーあたり約1と仮定 → 累計1,000に約1,000プレー（1ラウンド1プレー換算）。アニマロッタ解析のシミュレーションでは宝箱0.87〜1.28個/プレー（最高設定・配布カード）",
+   "src": [
+    "monnpare_meteor"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "111": {
+   "r": 2000.0,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴショット ライン：1プレーあたり約1と仮定 → 累計2,000に約2,000プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "112": {
+   "r": 1333.3,
+   "h": 58.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "マジカルマイン 宝箱：1プレーあたり約1.5と仮定 → 累計2,000に約1,333プレー（1ラウンド1プレー換算）。アニマロッタ解析の特定カード600回シミュレーションで1.50個/プレー（6箱の獲得率24/45/30/21/15/15%）",
+   "src": [
+    "monnpare_mm"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "113": {
+   "r": 1428.6,
+   "h": 62.1,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ビンゴエリクサー ライン：1プレーあたり約0.7と仮定 → 累計1,000に約1,429プレー（1ラウンド1プレー換算）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "114": {
+   "r": 45000,
+   "h": 1956.5,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ビンゴガーデン4ライン：カード別の理論値 1/24,651〜1/164,141（初代、8種カードの等重み平均 約1/45,800）。出現カードは内部状態依存のため目安",
+   "src": [
+    "mgf_bg",
+    "atwiki_prob"
+   ],
+   "note": "初代の理論値",
+   "obtainable": true
+  },
+  "115": {
+   "r": 3000.0,
+   "h": 130.4,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "3×3カードで6個以上のヒット（組合せ上は約1/100）が必要だが並びにも依存。スナップショットで未獲得のため1/3,000プレーと推定",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "116": {
+   "r": 3000.0,
+   "h": 130.4,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/3,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "117": {
+   "r": 2000,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "チェーンボンバー全消し：アニマロッタ解析のビンゴファーム記事に「ハイパーライン0.05%は一般的なカードの全消し率と同程度」とあり 1/2,000 を採用（全消し率そのものの集計はなし）",
+   "src": [
+    "monnpare_bf",
+    "monnpare_cb"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "118": {
+   "r": 202.4,
+   "h": 8.8,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "アニマツリー30階到達：メダルゲームファンの1,000万回シミュレーション（初代、2FUP70%・3FUP30%）で1回の挑戦（継続込み）あたり約1/92（2FUPのみのカードなら1/113）× 1挑戦あたり平均2.2ゲーム（2段以下で終了46%）。現行機の設定差は未反映",
+   "src": [
+    "mgf_tree",
+    "atwiki_prob"
+   ],
+   "note": "初代の理論値",
+   "obtainable": true
+  },
+  "119": {
+   "r": 935.0,
+   "h": 40.7,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "アニマツリー40階到達：メダルゲームファンの1,000万回シミュレーション（初代、2FUP70%・3FUP30%）で1回の挑戦（継続込み）あたり約1/425（2FUPのみのカードなら1/562）× 1挑戦あたり平均2.2ゲーム（2段以下で終了46%）。現行機の設定差は未反映",
+   "src": [
+    "mgf_tree",
+    "atwiki_prob"
+   ],
+   "note": "初代の理論値",
+   "obtainable": true
+  },
+  "120": {
+   "r": 4353.8,
+   "h": 189.3,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "アニマツリー50階到達：メダルゲームファンの1,000万回シミュレーション（初代、2FUP70%・3FUP30%）で1回の挑戦（継続込み）あたり約1/1,979（2FUPのみのカードなら1/2,765）× 1挑戦あたり平均2.2ゲーム（2段以下で終了46%）。現行機の設定差は未反映",
+   "src": [
+    "mgf_tree",
+    "atwiki_prob"
+   ],
+   "note": "初代の理論値",
+   "obtainable": true
+  },
+  "121": {
+   "r": 666.0,
+   "h": 29.0,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ハニーエイト8連以上：1カード1ゲームあたり0.27%（=1/370、アニマロッタ解析の2万回シミュレーション速報値）× 連荘1回の挑戦あたり平均1.8ゲーム（配当獲得率44.3%）",
+   "src": [
+    "monnpare_honey"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "122": {
+   "r": 167,
+   "h": 7.3,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ビンゴファーム スーパーライン：1カード1ゲームあたり0.6%（カード比 緑95:青4.5:赤0.5 の仮定、PO率84%）。FREE個数別では緑0.24〜0.96%",
+   "src": [
+    "monnpare_bf"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "123": {
+   "r": 2000,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ビンゴファーム ハイパーライン：1カード1ゲームあたり0.05%（同上）。FREE個数別では緑0.03〜0.15%・赤0.42〜0.68%",
+   "src": [
+    "monnpare_bf"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "124": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fiアニマスロットはコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "125": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fiアニマスロットはコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "126": {
+   "r": 2000.0,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/2,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "127": {
+   "r": 14000,
+   "h": 608.7,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ハッピーフラワー全獲り：200万回シミュレーションで143回＝0.007%（1/13,986）",
+   "src": [
+    "monnpare_hf"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "128": {
+   "r": 25.0,
+   "h": 1.1,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/25プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "129": {
+   "r": 368.4,
+   "h": 16.0,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマドロップ1ゲーム中の全消し2回：全消し1回を1/25ゲーム（仮定）、4回以上を1/80,000（利用者報告）とし、その間を「追加の全消しが続く確率 6.8%」の幾何級数でつないだ類推",
+   "src": [
+    "user_report",
+    "snapshot"
+   ],
+   "note": "類推（全消し1回と4回の間を補間）",
+   "obtainable": true
+  },
+  "130": {
+   "r": 5428.8,
+   "h": 236.0,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマドロップ1ゲーム中の全消し3回：全消し1回を1/25ゲーム（仮定）、4回以上を1/80,000（利用者報告）とし、その間を「追加の全消しが続く確率 6.8%」の幾何級数でつないだ類推",
+   "src": [
+    "user_report",
+    "snapshot"
+   ],
+   "note": "類推（全消し1回と4回の間を補間）",
+   "obtainable": true
+  },
+  "131": {
+   "r": 80000.0,
+   "h": 3478.3,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "1ゲーム中に全消し4回以上。利用者報告「最難関付近」を受けて1/80,000プレーと推定（以前は1/20,000）",
+   "src": [
+    "user_report",
+    "snapshot"
+   ],
+   "note": "利用者報告で補正",
+   "obtainable": true
+  },
+  "132": {
+   "r": 44.7,
+   "h": 1.9,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ハニーファイブ5連：ハニーエイトの8連以上0.27%・16連以上0.0002%（アニマロッタ解析）から1連あたりの継続率を40.6%と置き、5連以上＝0.27%÷継続率^3≒4.0%/ゲーム × 平均1.8ゲーム。ハニーファイブ固有の盤面差は未反映",
+   "src": [
+    "monnpare_honey"
+   ],
+   "note": "類推（ハニーエイトの連荘率から）",
+   "obtainable": true
+  },
+  "133": {
+   "r": 900000.0,
+   "h": 39130.4,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ハニーファイブ16連以上：1カード1ゲームあたり0.0002%（1/500,000）× 平均1.8ゲーム。事実上の運極",
+   "src": [
+    "monnpare_honey"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "134": {
+   "r": 500.0,
+   "h": 21.7,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/500プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "135": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/1,000プレーと主観的に推定（2回累計）。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "136": {
+   "r": 20000.0,
+   "h": 869.6,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/20,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "137": {
+   "r": 400,
+   "h": 17.4,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンダースマッシュ左側全消し：自作シミュレーション（アニマロッタ5世代の再現、35配置×1万回）で片側全消しは平均0.5%/ゲーム（配置により0.04〜2.0%）。左右別の集計はないため半分の0.25%＝1/400を採用。筆者自身が確証はないと注記",
+   "src": [
+    "zisaku_ts"
+   ],
+   "note": "自作シミュレーション値",
+   "obtainable": true
+  },
+  "138": {
+   "r": 400,
+   "h": 17.4,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンダースマッシュ右側全消し：自作シミュレーション（アニマロッタ5世代の再現、35配置×1万回）で片側全消しは平均0.5%/ゲーム（配置により0.04〜2.0%）。左右別の集計はないため半分の0.25%＝1/400を採用。筆者自身が確証はないと注記",
+   "src": [
+    "zisaku_ts"
+   ],
+   "note": "自作シミュレーション値",
+   "obtainable": true
+  },
+  "139": {
+   "r": 2000,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "サンダースマッシュ両側全消し：同シミュレーションで平均0.05%/ゲーム（1/2,000、配置により0〜0.23%）。以前の主観推定1/60,000から大幅に軽くなる",
+   "src": [
+    "zisaku_ts"
+   ],
+   "note": "自作シミュレーション値",
+   "obtainable": true
+  },
+  "140": {
+   "r": 6000.0,
+   "h": 260.9,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/6,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "141": {
+   "r": 12000.0,
+   "h": 521.7,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/12,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "142": {
+   "r": 400.0,
+   "h": 17.4,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/400プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "143": {
+   "r": 6170.8,
+   "h": 268.3,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ヘブンツリー35階：自作シミュレーションの継続率41.7〜54.1%・平均3.0〜3.18階/ゲームから継続率48%・3.1階/ゲームと置き、11回連続継続（約1/3,209挑戦）× 1挑戦平均1.9ゲームで導出",
+   "src": [
+    "zisaku_ht"
+   ],
+   "note": "自作シミュレーションから導出",
+   "obtainable": true
+  },
+  "144": {
+   "r": 600.0,
+   "h": 26.1,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/600プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "145": {
+   "r": 949,
+   "h": 41.3,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "トゥインクルリンクのプラネットボーナス：アニマロッタ解析のファンシーフラワー記事に「全獲り（8球中に特定の5マス）はプラネットボーナスと同確率」との記述。理論値 20C3/25C8＝0.1054%（1/949）を適用",
+   "src": [
+    "monnpare_hf"
+   ],
+   "note": "資料の「同確率」記述による",
+   "obtainable": true
+  },
+  "146": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/1,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "147": {
+   "r": 700,
+   "h": 30.4,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "メテオボンバー全消し：アニマロッタ解析の各100万回シミュレーションで0.39%／0.12%（最高設定の2カード）、0.16%（配布カード、20万回）。中間の約0.14%＝1/700を採用",
+   "src": [
+    "monnpare_meteor"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "148": {
+   "r": 950,
+   "h": 41.3,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "資料",
+   "basis": "ファンシーフラワー全獲り：理論値 20C3/25C8＝0.1054%（1/949）、10万回シミュレーションで0.117%",
+   "src": [
+    "monnpare_hf"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "149": {
+   "r": 200.0,
+   "h": 8.7,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/200プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "150": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/1,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "151": {
+   "r": 10000.0,
+   "h": 434.8,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/10,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "152": {
+   "r": 8000.0,
+   "h": 347.8,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/8,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "153": {
+   "r": 60000.0,
+   "h": 2608.7,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/60,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "154": {
+   "r": 80.0,
+   "h": 3.5,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/80プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "155": {
+   "r": 8000.0,
+   "h": 347.8,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/8,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "156": {
+   "r": 1000.0,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/1,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "157": {
+   "r": 333.3,
+   "h": 14.5,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "マジカルマイン全消し：特定カード600回のシミュレーションで0.3%（試行が少なく誤差大）→ 1/333",
+   "src": [
+    "monnpare_mm"
+   ],
+   "note": "試行600回の暫定値",
+   "obtainable": true
+  },
+  "158": {
+   "r": 12000.0,
+   "h": 521.7,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/12,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "159": {
+   "r": 600.0,
+   "h": 26.1,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/600プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "160": {
+   "r": 800.0,
+   "h": 34.8,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/800プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "161": {
+   "r": 2000.0,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/2,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "162": {
+   "r": 333.3,
+   "h": 14.5,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ミラクルマイン全消し：同じ盤面構造のマジカルマイン全消し（600回シミュレーションで0.3%→1/333）と同じ率と仮定。ミラクルマイン固有の継続要素は未反映",
+   "src": [
+    "monnpare_mm"
+   ],
+   "note": "類推（マジカルマインから）",
+   "obtainable": true
+  },
+  "163": {
+   "r": 12000.0,
+   "h": 521.7,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "この役の出現率を1/12,000プレーと主観的に推定。2026-11-09の解析サイト調査でも出現率の記載なし。獲得状況スナップショットと整合するよう校正",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "164": {
+   "r": 367.5,
+   "h": 16.0,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち3種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "165": {
+   "r": 549.1,
+   "h": 23.9,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち4種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "166": {
+   "r": 777.0,
+   "h": 33.8,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち5種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "167": {
+   "r": 1067.8,
+   "h": 46.4,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち6種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "168": {
+   "r": 1450.0,
+   "h": 63.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち7種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "169": {
+   "r": 1965.7,
+   "h": 85.5,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち8種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "170": {
+   "r": 2694.4,
+   "h": 117.1,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち9種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "171": {
+   "r": 3853.8,
+   "h": 167.6,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち10種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "172": {
+   "r": 5979.5,
+   "h": 260.0,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち11種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "173": {
+   "r": 11059.1,
+   "h": 480.8,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち12種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "174": {
+   "r": 24296.4,
+   "h": 1056.4,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち13種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "175": {
+   "r": 51419.7,
+   "h": 2235.6,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち14種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "176": {
+   "r": 115785.2,
+   "h": 5034.1,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "15ゲームの最高役（各1/333〜1/80,000プレー。解析サイトの公開値がある9ゲームはその値、他は推定）のうち15種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "177": {
+   "r": 428.0,
+   "h": 18.6,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "シークレットゲームの最高役を「ハニーファイブ5連・クラッシュドロップ スウィートJP・サンダーブレイク最上段・ファンシーフラワー全獲り・ミラクルマイン全消し・不明1種（1/20,000）」とみなし、3種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "178": {
+   "r": 1061.3,
+   "h": 46.1,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "シークレットゲームの最高役を「ハニーファイブ5連・クラッシュドロップ スウィートJP・サンダーブレイク最上段・ファンシーフラワー全獲り・ミラクルマイン全消し・不明1種（1/20,000）」とみなし、4種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "179": {
+   "r": 7634.6,
+   "h": 331.9,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "シークレットゲームの最高役を「ハニーファイブ5連・クラッシュドロップ スウィートJP・サンダーブレイク最上段・ファンシーフラワー全獲り・ミラクルマイン全消し・不明1種（1/20,000）」とみなし、5種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "180": {
+   "r": 24547.3,
+   "h": 1067.3,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "シークレットゲームの最高役を「ハニーファイブ5連・クラッシュドロップ スウィートJP・サンダーブレイク最上段・ファンシーフラワー全獲り・ミラクルマイン全消し・不明1種（1/20,000）」とみなし、6種類が揃うまでの期待ラウンド数（順序統計のモンテカルロ）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "181": {
+   "r": 175.0,
+   "h": 7.6,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クリスタルリンゴ（クリスタルWC）の出現を4%/WCと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "182": {
+   "r": 600,
+   "h": 26.1,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "虹色リンゴ（1/500ラウンド）とクリスタルリンゴ（1/175ラウンド）を含む全7種を揃える",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "183": {
+   "r": 150,
+   "h": 6.5,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "1ゲーム（1ラウンド）でリンゴ3個以上。約150ラウンドに1回と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "184": {
+   "r": 200,
+   "h": 8.7,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "3ゲームBETで無配当5連続。狙えば（ヒットしにくいゲームを3つ選ぶ）数百ラウンド以内。無作為プレーでは稀",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "185": {
+   "r": 11.8,
+   "h": 0.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 1,
+   "conf": "計算",
+   "basis": "累計WIN 1,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "186": {
+   "r": 11.8,
+   "h": 0.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 1,
+   "conf": "計算",
+   "basis": "累計WIN 1,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "187": {
+   "r": 11.8,
+   "h": 0.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 1,
+   "conf": "計算",
+   "basis": "累計WIN 1,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "188": {
+   "r": 0.8,
+   "h": 0.0,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "リンゴ（ワンダーステップ）は約1.3個/ラウンド（14面ハッピーフラワーで9.6%/ゲーム）",
+   "src": [
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "189": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "190": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "191": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "192": {
+   "r": 76.9,
+   "h": 3.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "リンゴ約1.3個/ラウンド → 100個",
+   "src": [
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "193": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "194": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "195": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fiアニマスロットはコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "196": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "197": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "198": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "199": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "200": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "201": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "202": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "203": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "204": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "205": {
+   "r": 117.6,
+   "h": 5.1,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "累計WIN 10,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "206": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "207": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "208": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "209": {
+   "r": 769.2,
+   "h": 33.4,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "リンゴ約1.3個/ラウンド → 1,000個",
+   "src": [
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "210": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "211": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "212": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "213": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "214": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "215": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "216": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "217": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "218": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "219": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "220": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "221": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "累計WIN 100,000枚 ÷ 1ゲーム85枚/ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "222": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "223": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "224": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "225": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "226": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "227": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "228": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "229": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "230": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "231": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "232": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "233": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "234": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "235": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "236": {
+   "r": 11764.7,
+   "h": 511.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "累計WIN 1,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "237": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "238": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "239": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "240": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "241": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "242": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "243": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "244": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "245": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "246": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "247": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "248": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "249": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "250": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "251": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "累計WIN 2,000,000枚 ÷ 1ゲーム85枚/ラウンド。BET額に比例して短縮",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "252": {
+   "r": 7692.3,
+   "h": 334.4,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "リンゴ約1.3個/ラウンド → 10,000個",
+   "src": [
+    "monnpare_jp"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "253": {
+   "r": 4.6,
+   "h": 0.2,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "シングル3ゲーム全てで配当：0.6^3",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "254": {
+   "r": 64.0,
+   "h": 2.8,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "BETの2倍以上の配当を25%/ゲームと仮定：0.25^3",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "255": {
+   "r": 296.3,
+   "h": 12.9,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "BETの3倍以上の配当を15%/ゲームと仮定：0.15^3",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "256": {
+   "r": 21.4,
+   "h": 0.9,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "マルチ6ゲーム全てで配当：0.6^6（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "257": {
+   "r": 2126.8,
+   "h": 92.5,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "オールモード15ゲーム全てで配当：0.6^15（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "258": {
+   "r": 59.5,
+   "h": 2.6,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "超マルチ8ゲーム全てで配当：0.6^8（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "259": {
+   "r": 165.4,
+   "h": 7.2,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "超超マルチ10ゲーム全てで配当：0.6^10（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "260": {
+   "r": 459.4,
+   "h": 20.0,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "極マルチ12ゲーム全てで配当：0.6^12（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "261": {
+   "r": 1276.1,
+   "h": 55.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "超極マルチ14ゲーム全てで配当：0.6^14（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "262": {
+   "r": 99.2,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ナインビンゴ9ゲーム全てで配当：0.6^9（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "263": {
+   "r": 99.2,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ナインビンゴカスタム9ゲーム全てで配当：0.6^9（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "264": {
+   "r": 99.2,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "ナインビンゴ超カスタム9ゲーム全てで配当：0.6^9（そのモードをプレーしている前提）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "265": {
+   "r": 13.3,
+   "h": 0.6,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "配当しやすいゲーム9面同一種：配当率75%と仮定 0.75^9",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "266": {
+   "r": 12687.8,
+   "h": 551.6,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "配当しづらいゲーム9面同一種：配当率35%と仮定 0.35^9",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "267": {
+   "r": 4000,
+   "h": 173.9,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ライン宝箱からBET30倍。約4,000ラウンドに1回と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "268": {
+   "r": 190.4,
+   "h": 8.3,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "ラウンド合計がBET以上となる確率を35%と仮定：0.35^5",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "269": {
+   "r": 840.3,
+   "h": 36.5,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 2,
+   "conf": "計算",
+   "basis": "総WIN 1,000,000枚 ÷ 1,190枚/ラウンド（14面×100BET×PO85%）。BET額に比例して短縮",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "270": {
+   "r": 4201.7,
+   "h": 182.7,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 3,
+   "conf": "計算",
+   "basis": "総WIN 5,000,000枚 ÷ 1,190枚/ラウンド（14面×100BET×PO85%）。BET額に比例して短縮",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "271": {
+   "r": 8403.4,
+   "h": 365.4,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 4,
+   "conf": "計算",
+   "basis": "総WIN 10,000,000枚 ÷ 1,190枚/ラウンド（14面×100BET×PO85%）。BET額に比例して短縮",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "272": {
+   "r": 16806.7,
+   "h": 730.7,
+   "rank": null,
+   "stars": null,
+   "kind": "tiered",
+   "tier": 5,
+   "conf": "計算",
+   "basis": "総WIN 20,000,000枚 ÷ 1,190枚/ラウンド（14面×100BET×PO85%）。BET額に比例して短縮",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "273": {
+   "r": 250.0,
+   "h": 10.9,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "スター100個 ÷ 0.4個/ラウンド",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "274": {
+   "r": 1250.0,
+   "h": 54.3,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "スター500個 ÷ 0.4個/ラウンド",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "275": {
+   "r": 2500.0,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "スター1,000個 ÷ 0.4個/ラウンド",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "276": {
+   "r": 12500.0,
+   "h": 543.5,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "スター5,000個 ÷ 0.4個/ラウンド",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "277": {
+   "r": 3137.5,
+   "h": 136.4,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマロッタ4「おとぎの国」1ページ目：マップは順に解放されると仮定し、累計スター約1,255個（フェスティバル490／天空510／おとぎ510／大樹510／星の物語1,330、他は推定）",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "278": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版のアニマップ構成（2ページ目）に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "279": {
+   "r": 4412.5,
+   "h": 191.8,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマロッタ5「雲の大樹」1ページ目：マップは順に解放されると仮定し、累計スター約1,765個（フェスティバル490／天空510／おとぎ510／大樹510／星の物語1,330、他は推定）",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "280": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版のアニマップ構成（2ページ目）に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "281": {
+   "r": 6712.5,
+   "h": 291.8,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマロッタ6「星の物語」1ページ目：マップは順に解放されると仮定し、累計スター約2,685個（フェスティバル490／天空510／おとぎ510／大樹510／星の物語1,330、他は推定）",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "282": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版のアニマップ構成（2ページ目）に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "283": {
+   "r": 9250.0,
+   "h": 402.2,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマロッタ7「アニマランド」1ページ目：マップは順に解放されると仮定し、累計スター約3,700個（フェスティバル490／天空510／おとぎ510／大樹510／星の物語1,330、他は推定）",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "284": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版のアニマップ構成（2ページ目）に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "285": {
+   "r": 11000.0,
+   "h": 478.3,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマロッタ8 1ページ目：マップは順に解放されると仮定し、累計スター約4,400個（フェスティバル490／天空510／おとぎ510／大樹510／星の物語1,330、他は推定）",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "286": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版のアニマップ構成（2ページ目）に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "287": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "288": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "289": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "290": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "291": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "292": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "293": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "294": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "295": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "296": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "コナステ版に対応する枠が見当たらない（アニマ固定・サイズ変更・スタンプショップ・BGM・ガチャ等）",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "297": {
+   "r": 500,
+   "h": 21.7,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "スターを消費してコンプリート条件を短縮。必要スター数は未確認",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "298": {
+   "r": 1643.3,
+   "h": 71.4,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "短縮後に該当JPCで JP 獲得（JPC 2.04%/WC × JP率約30%）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "299": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "300": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "301": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "302": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "303": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "304": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "305": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "306": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "307": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "308": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "309": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "310": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "311": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "312": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "313": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "314": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "315": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "ワンダーBGM・背景の変更機能に対応する枠がコナステ版に見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "316": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "317": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "318": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "319": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "320": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "321": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "322": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "323": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "324": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "325": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "326": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "327": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "328": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "329": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "330": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "331": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "332": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "333": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "334": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "335": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "他プレイヤーとの応援・スタンプ送受信・ご当地スタンプはコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "336": {
+   "r": 100,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "スタンプ10種類。入手経路（ショップ・イベント）に依存するため約100ラウンドと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "337": {
+   "r": 800,
+   "h": 34.8,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "スタンプ50種類。入手経路（ショップ・イベント）に依存するため約800ラウンドと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "338": {
+   "r": 3000,
+   "h": 130.4,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "スタンプ100種類。入手経路（ショップ・イベント）に依存するため約3,000ラウンドと仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "339": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "スタンプ受信機能に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "340": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "スタンプ受信機能に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "341": {
+   "r": 1000,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマの動き10種類。アニマップでスター購入（1枠10〜150個）が主な入手経路と仮定",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "342": {
+   "r": 2000,
+   "h": 87.0,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマの動き30種類。アニマップでスター購入（1枠10〜150個）が主な入手経路と仮定",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "343": {
+   "r": 4000,
+   "h": 173.9,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマの動き50種類。アニマップでスター購入（1枠10〜150個）が主な入手経路と仮定",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "344": {
+   "r": 6000,
+   "h": 260.9,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "必要数が未確定（原典でも不明）。50種と100種の間と仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "345": {
+   "r": 10000,
+   "h": 434.8,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマの動き100種類。アニマップでスター購入（1枠10〜150個）が主な入手経路と仮定",
+   "src": [
+    "byakuryu"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "346": {
+   "r": 5,
+   "h": 0.2,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "確定",
+   "basis": "アニマを2匹登録",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "347": {
+   "r": 20,
+   "h": 0.9,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "アニマを5匹登録（登録枠の解放を含む）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "348": {
+   "r": 20,
+   "h": 0.9,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "タッチは手動操作。1ラウンド5回程度",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "349": {
+   "r": 200,
+   "h": 8.7,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "タッチ1,000回",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "350": {
+   "r": 1000,
+   "h": 43.5,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "タッチ5,000回",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "351": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "352": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "353": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "354": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "355": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "356": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "357": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "358": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "359": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "360": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "361": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "362": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "363": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "364": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "365": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "366": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "367": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "368": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "369": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "370": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "371": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "372": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "373": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "374": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "375": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "376": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "377": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "378": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "379": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "380": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "381": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "382": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "383": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "384": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "385": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "386": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "応援・アニマ解禁・ミニマ・応援団はコナステ版に対応する枠が見当たらない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "387": {
+   "r": 1,
+   "h": 0.0,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "確定",
+   "basis": "クエストを受注",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "388": {
+   "r": 10,
+   "h": 0.4,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "最初のクエストをクリア",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "389": {
+   "r": 100,
+   "h": 4.3,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クエスト10回失敗（期限切れ等）",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "390": {
+   "r": 250,
+   "h": 10.9,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クエスト10回クリア × 1件約25ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "391": {
+   "r": 1250,
+   "h": 54.3,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クエスト50回クリア × 1件約25ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "392": {
+   "r": 2500,
+   "h": 108.7,
+   "rank": "A+",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クエスト100回クリア × 1件約25ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "393": {
+   "r": 7500,
+   "h": 326.1,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "クエスト300回クリア × 1件約25ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "394": {
+   "r": 800,
+   "h": 34.8,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "通常クエスト128種の25%=32件 × 約25ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "395": {
+   "r": 1600,
+   "h": 69.6,
+   "rank": "A",
+   "stars": 4,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "通常クエスト（全128種）の達成率50%=64件 × 約25ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "396": {
+   "r": 3360,
+   "h": 146.1,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "通常クエスト（全128種）の達成率75%=96件。後半は難化するとみて1件35ラウンド",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "397": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "SPクエストが条件。コナステ版にSPクエストは存在せず、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、対応する枠もないと判断",
+   "src": [],
+   "note": "SP限定",
+   "obtainable": false
+  },
+  "398": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "SPクエストが条件。コナステ版にSPクエストは存在せず、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、対応する枠もないと判断",
+   "src": [],
+   "note": "SP限定",
+   "obtainable": false
+  },
+  "399": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "SPクエストが条件。コナステ版にSPクエストは存在せず、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、対応する枠もないと判断",
+   "src": [],
+   "note": "SP限定",
+   "obtainable": false
+  },
+  "400": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "SPクエストが条件。コナステ版にSPクエストは存在せず、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、対応する枠もないと判断",
+   "src": [],
+   "note": "SP限定",
+   "obtainable": false
+  },
+  "401": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "SPクエストが条件。コナステ版にSPクエストは存在せず、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、対応する枠もないと判断",
+   "src": [],
+   "note": "SP限定",
+   "obtainable": false
+  },
+  "402": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "SPクエストが条件。コナステ版にSPクエストは存在せず、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、対応する枠もないと判断",
+   "src": [],
+   "note": "SP限定",
+   "obtainable": false
+  },
+  "403": {
+   "r": 3200,
+   "h": 139.1,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "通常クエスト全128種を受注（受注のみ、クリア不要）。1件約25ラウンドで入れ替わると仮定",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "404": {
+   "r": 3200,
+   "h": 139.1,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "コナステ版では「通常クエスト全128種を受注」と読み替え（ワールドトラベラーと同条件）。1件約25ラウンドで入れ替わると仮定",
+   "src": [],
+   "note": "SP部分を除いた読み替え",
+   "obtainable": true
+  },
+  "405": {
+   "r": 5760,
+   "h": 250.4,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "コナステ版では「通常クエスト全128種をクリア（達成率100%）」と読み替え。終盤のクエストは難化するとみて1件45ラウンド",
+   "src": [],
+   "note": "SP部分を除いた読み替え",
+   "obtainable": true
+  },
+  "406": {
+   "r": 194.6,
+   "h": 8.5,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "3〜5月の期間中にJPを1回（JPはWC1回あたり約3.6% → 期待28WC）。該当する季節を待つ必要あり",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "暦条件",
+   "obtainable": true
+  },
+  "407": {
+   "r": 194.6,
+   "h": 8.5,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "6〜8月の期間中にJPを1回（JPはWC1回あたり約3.6% → 期待28WC）。該当する季節を待つ必要あり",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "暦条件",
+   "obtainable": true
+  },
+  "408": {
+   "r": 194.6,
+   "h": 8.5,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "9〜11月の期間中にJPを1回（JPはWC1回あたり約3.6% → 期待28WC）。該当する季節を待つ必要あり",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "暦条件",
+   "obtainable": true
+  },
+  "409": {
+   "r": 194.6,
+   "h": 8.5,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "12〜2月の期間中にJPを1回（JPはWC1回あたり約3.6% → 期待28WC）。該当する季節を待つ必要あり",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "暦条件",
+   "obtainable": true
+  },
+  "410": {
+   "r": 778.2,
+   "h": 33.8,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "四季それぞれでJP1回。最短でも約1年のプレー期間が必要",
+   "src": [
+    "monnpare_all"
+   ],
+   "note": "暦条件（最短1年）",
+   "obtainable": true
+  },
+  "411": {
+   "r": 1,
+   "h": 0.0,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "確定",
+   "basis": "初プレーから丸1年経過後に再プレー。操作は1回だが1年の経過が必要",
+   "src": [],
+   "note": "時間条件（1年）",
+   "obtainable": true
+  },
+  "412": {
+   "r": 552,
+   "h": 24.0,
+   "rank": "B",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "累計プレー24時間 × 23ラウンド/時間",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "413": {
+   "r": 3864,
+   "h": 168.0,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "累計プレー168時間 × 23ラウンド/時間",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "414": {
+   "r": 16560,
+   "h": 720.0,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "累計プレー720時間 × 23ラウンド/時間",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "415": {
+   "r": 23000,
+   "h": 1000.0,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "累計プレー1000時間 × 23ラウンド/時間",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "416": {
+   "r": 70,
+   "h": 3.0,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "曜日7種類すべてでプレー（最短1週間）。1日10ラウンド換算",
+   "src": [],
+   "note": "暦条件",
+   "obtainable": true
+  },
+  "417": {
+   "r": 50,
+   "h": 2.2,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "土日のプレー合計5日（最短3週間）",
+   "src": [],
+   "note": "暦条件",
+   "obtainable": true
+  },
+  "418": {
+   "r": 20,
+   "h": 0.9,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "2日連続プレー（1日10ラウンド換算）",
+   "src": [],
+   "note": "連続ログイン条件",
+   "obtainable": true
+  },
+  "419": {
+   "r": 30,
+   "h": 1.3,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "3日連続プレー（1日10ラウンド換算）",
+   "src": [],
+   "note": "連続ログイン条件",
+   "obtainable": true
+  },
+  "420": {
+   "r": 40,
+   "h": 1.7,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "4日連続プレー（1日10ラウンド換算）",
+   "src": [],
+   "note": "連続ログイン条件",
+   "obtainable": true
+  },
+  "421": {
+   "r": 50,
+   "h": 2.2,
+   "rank": "F",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "5日連続プレー（1日10ラウンド換算）",
+   "src": [],
+   "note": "連続ログイン条件",
+   "obtainable": true
+  },
+  "422": {
+   "r": 60,
+   "h": 2.6,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "6日連続プレー（1日10ラウンド換算）",
+   "src": [],
+   "note": "連続ログイン条件",
+   "obtainable": true
+  },
+  "423": {
+   "r": 70,
+   "h": 3.0,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "7日連続プレー（1日10ラウンド換算）",
+   "src": [],
+   "note": "連続ログイン条件",
+   "obtainable": true
+  },
+  "424": {
+   "r": 80,
+   "h": 3.5,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "推定",
+   "basis": "8日連続プレー（1日10ラウンド換算）",
+   "src": [],
+   "note": "連続ログイン条件",
+   "obtainable": true
+  },
+  "425": {
+   "r": 184,
+   "h": 8.0,
+   "rank": "D",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "1日合計8時間 × 23ラウンド/時間",
+   "src": [],
+   "note": "",
+   "obtainable": true
+  },
+  "426": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fi連動機能はコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "427": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fi連動機能はコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "428": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fi連動機能はコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "429": {
+   "r": null,
+   "h": null,
+   "rank": null,
+   "stars": null,
+   "kind": null,
+   "tier": null,
+   "conf": "対象外",
+   "basis": "Wi-Fi連動機能はコナステ版に存在しない",
+   "src": [],
+   "note": "",
+   "obtainable": false
+  },
+  "430": {
+   "r": 1000000,
+   "h": 43478.3,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の獲得。最も重いSS称号（事実上不可）の所要に支配される",
+   "src": [],
+   "note": "事実上不可の可能性",
+   "obtainable": true
+  },
+  "431": {
+   "r": 51419.7,
+   "h": 2235.6,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の95%=314称号。難易度順に314番目の称号の期待ラウンド数（約51,420）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "432": {
+   "r": 23529.4,
+   "h": 1023.0,
+   "rank": "SS",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の90%=297称号。難易度順に297番目の称号の期待ラウンド数（約23,529）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "433": {
+   "r": 11268.0,
+   "h": 489.9,
+   "rank": "S+",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の80%=264称号。難易度順に264番目の称号の期待ラウンド数（約11,268）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "434": {
+   "r": 3864,
+   "h": 168.0,
+   "rank": "S",
+   "stars": 5,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の70%=231称号。難易度順に231番目の称号の期待ラウンド数（約3,864）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "435": {
+   "r": 1176.5,
+   "h": 51.2,
+   "rank": "B+",
+   "stars": 3,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の50%=165称号。難易度順に165番目の称号の期待ラウンド数（約1,176）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "436": {
+   "r": 350.0,
+   "h": 15.2,
+   "rank": "C",
+   "stars": 2,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の30%=99称号。難易度順に99番目の称号の期待ラウンド数（約350）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "437": {
+   "r": 142.9,
+   "h": 6.2,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の20%=66称号。難易度順に66番目の称号の期待ラウンド数（約143）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  },
+  "438": {
+   "r": 70.0,
+   "h": 3.0,
+   "rank": "E",
+   "stars": 1,
+   "kind": "prob",
+   "tier": null,
+   "conf": "計算",
+   "basis": "全330枠の10%=33称号。難易度順に33番目の称号の期待ラウンド数（約70）を所要とみなす",
+   "src": [
+    "snapshot"
+   ],
+   "note": "",
+   "obtainable": true
+  }
+ }
+}

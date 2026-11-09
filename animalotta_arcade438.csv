@@ -1,0 +1,439 @@
+﻿実機番号,称号名,獲得条件（実機参考）,条件確度,区分,コナステ対応状態,コナステ枠番号,SPクエスト判定メモ,出典
+1,はじめまして,アニマロッタをプレー,実機参考,ワンダー・JPC,獲得済み（画像確認）,1,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+2,アニツナコッペ,アニマロッタとツナガロッタの両方をプレー,実機参考,ワンダー・JPC,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+3,アニコロツナサンド,アニマロッタ・カラコロッタ・ツナガロッタをプレー,実機参考,ワンダー・JPC,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+4,アニカラバーガー,アニマロッタとカラコロッタをプレー,実機参考,ワンダー・JPC,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+5,ビギナー卒業,チュートリアルをクリア,実機参考,ワンダー・JPC,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+6,よくばりアニマ,オールモードをプレー,実機参考,ワンダー・JPC,獲得済み（画像確認）,2,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+7,ワンダーZERO,ワンダーチャンスが0ラインで終了,実機参考,ワンダー・JPC,獲得済み（画像確認）,3,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+8,ビッグワンダー,ビッグワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,4,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+9,スーパーワンダー,スーパーワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,5,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+10,アルティメットワンダー,アルティメットワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,6,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+11,ゴッドワンダー,ゴッドワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,7,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+12,クリスタルワンダー,クリスタルワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,8,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+13,ムーンライトワンダー,ムーンライトワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,9,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+14,サンシャインワンダー,サンシャインワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,10,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+15,だれとでも仲良く,サンシャインWCのアニマを全員回収,実機参考,ワンダー・JPC,未取得（枠推定）,11,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+16,アアアアアアアアアアニマ追加,サンシャインWC最終ゲームで追加アニマ10体,実機参考,ワンダー・JPC,未取得（枠推定）,12,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+17,ドリームワンダー,ドリームワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,13,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+18,デイドリーマー,ドリームWCで1歩も進めず終了,実機参考,ワンダー・JPC,獲得済み（画像確認）,14,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+19,ファンタジーワンダー,ファンタジーワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,15,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+20,クインタブルワンダー,スターダスト、ムーンライト、サンシャイン、ドリーム、ファンタジーの5種のWCを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,16,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+21,コンプリートワンダー,コンプリートワンダーチャンスへ突入,実機参考,ワンダー・JPC,獲得済み（画像確認）,17,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+22,悲しきワンダー10,ワンダーチャンス10回以上連続失敗。数値は連敗数に応じて変化,実機参考,ワンダー・JPC,獲得済み（画像確認）,18,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+23,チャンスゲッター,ワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,19,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+24,ラッキーゲッター,WCを2ゲームで突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,20,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+25,ミラクルゲッター,WCを1ゲームで突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,21,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+26,ビッグちゃん,ビッグワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,22,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+27,スーパーちゃん,スーパーワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,23,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+28,アルティメットちゃん,アルティメットワンダーチャンスを突破,実機参考,ワンダー・JPC,未取得（枠推定）,24,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+29,ゴッドちゃん,ゴッドワンダーチャンスを突破,実機参考,ワンダー・JPC,未取得（枠推定）,25,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+30,クリスタルちゃん,クリスタルワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,26,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+31,ムーンライトちゃん,ムーンライトワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,27,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+32,サンシャインちゃん,サンシャインワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,28,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+33,ドリームちゃん,ドリームワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,29,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+34,ファンタジーちゃん,ファンタジーワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,30,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+35,コンプリートチャレンジャー,コンプリートワンダーチャンスを突破,実機参考,ワンダー・JPC,獲得済み（画像確認）,31,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+36,天界の挑戦者,ヘブンチャレンジに参加し、チャレンジ中にリンゴを獲得,実機参考,ワンダー・JPC,獲得済み（画像確認）,32,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+37,イカロスの翼,ヘブンチャレンジでベット対象のアニマに5HIT,実機参考,ワンダー・JPC,獲得済み（画像確認）,33,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+38,エンジェルウィング,ヘブンチャレンジで5種のアニマそれぞれに2HIT,実機参考,ワンダー・JPC,獲得済み（画像確認）,34,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+39,スターダストハンター,スターダストJPC直行の虹色リンゴを獲得,実機参考,ワンダー・JPC,未取得（枠推定）,35,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+40,ムーンライトハンター,ムーンライトJPC直行の虹色リンゴを獲得,実機参考,ワンダー・JPC,獲得済み（画像確認）,36,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+41,サンシャインハンター,サンシャインJPC直行の虹色リンゴを獲得,実機参考,ワンダー・JPC,獲得済み（画像確認）,37,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+42,ドリームハンター,ドリームJPC直行の虹色リンゴを獲得,実機参考,ワンダー・JPC,獲得済み（画像確認）,38,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+43,ファンタジーハンター,ファンタジーJPC直行の虹色リンゴを獲得,実機参考,ワンダー・JPC,獲得済み（画像確認）,39,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+44,天空の覇者,5種のJACKPOT（スターダスト、ムーンライト、サンシャイン、ドリーム、ファンタジー）を獲得,実機参考,ワンダー・JPC,獲得済み（画像確認）,40,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+45,アップルクラウド,ヘブンステップを獲得,実機参考,ジャックポット,獲得済み（画像確認）,41,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+46,ジャックポッター,等倍のスターダストJPを獲得（他種JPを先に取ると対象外となる場合あり）,実機参考,ジャックポット,獲得済み（画像確認）,42,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+47,ジャックポッターD,虹色リンゴ経由でJPを獲得,実機参考,ジャックポット,獲得済み（画像確認）,43,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+48,ハイパージャック,"5,000枚以上のJPを獲得",実機参考,ジャックポット,獲得済み（画像確認）,44,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+49,ビッグジャック,ビッグJP獲得,実機参考,ジャックポット,獲得済み（画像確認）,45,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+50,スーパージャック,スーパーJP獲得,実機参考,ジャックポット,獲得済み（画像確認）,46,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+51,アルティメットジャック,アルティメットJP獲得,実機参考,ジャックポット,未取得（枠推定）,47,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+52,ゴッドジャック,ゴッドJP獲得,実機参考,ジャックポット,未取得（枠推定）,48,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+53,クリスタルジャック,クリスタルJP獲得,実機参考,ジャックポット,獲得済み（画像確認）,49,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+54,もうなにもこわくない,ビッグ・スーパー・アルティメット・ゴッド・クリスタルの各JPを獲得,実機参考,ジャックポット,未取得（枠推定）,50,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+55,クリスタルジャックダブル,クリスタルJPを倍率×2のアイテムで獲得,実機参考,ジャックポット,未取得（枠推定）,51,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+56,ムーンライトジャック,ムーンライトJPCでRound 2突破,実機参考,ジャックポット,獲得済み（画像確認）,52,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+57,ムーンライトドリーム,ムーンライトJPCでRound 3突破,実機参考,ジャックポット,獲得済み（画像確認）,53,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+58,ムーンライトミラクル,ムーンライトJPCでRound 4突破,実機参考,ジャックポット,獲得済み（画像確認）,54,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+59,ムーンライトレジェンド,ムーンライトJPCでRound 5突破,実機参考,ジャックポット,獲得済み（画像確認）,55,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+60,サンシャインジャック,サンシャインJPCで1箇所に4HITしJP獲得,実機参考,ジャックポット,獲得済み（画像確認）,56,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+61,サンシャインダブル,サンシャインJPCで2箇所に4HITしJP獲得,実機参考,ジャックポット,未取得（枠推定）,57,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+62,サンシャインマスター,サンシャインJPCで3箇所以上に4HITしJP獲得,実機参考,ジャックポット,未取得（枠推定）,58,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+63,ドリームジャック,ドリームJP獲得,実機参考,ジャックポット,獲得済み（画像確認）,59,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+64,ドリームリピーター,ドリームJPを2倍以上で獲得,実機参考,ジャックポット,未取得（枠推定）,60,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+65,ファンタジージャック,ファンタジーJP獲得,実機参考,ジャックポット,獲得済み（画像確認）,61,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+66,ハイパーファンタジア,ファンタジーJPを20倍以上で獲得（実機2026年2月時点の追記あり）,実機参考,ジャックポット,獲得済み（画像確認）,62,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+67,レジェンド・コンプリート,コンプリートJP獲得,実機参考,ジャックポット,獲得済み（画像確認）,63,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+68,さんさん★ミラクル,ミラクルルーレットで×3を引く,実機参考,ジャックポット,獲得済み（画像確認）,64,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+69,ごーごー★ミラクル,ミラクルルーレットで×5を引く,実機参考,ジャックポット,獲得済み（画像確認）,65,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+70,てんてん★ミラクル,ミラクルルーレットで×10を引く,実機参考,ジャックポット,獲得済み（画像確認）,66,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+71,穴掘り師,チェーンボンバーで200列発掘,実機参考,累積達成,獲得済み（画像確認）,67,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+72,ラインマン,ビンゴガーデンで累計100ライン,実機参考,累積達成,獲得済み（画像確認）,68,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+73,木のぼり師,"アニマツリーで累計1,000階到達",実機参考,累積達成,未取得（枠推定）,69,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+74,ハチ飼い,ハニーエイト/ハニーファイブでハチミツ累計888個,実機参考,累積達成,獲得済み（画像確認）,70,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+75,園芸家,ビンゴファームで累計500ライン,実機参考,累積達成,獲得済み（画像確認）,71,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+76,勝負師,Wi-Fiアニマスロットでボーナス累計5回,実機参考,累積達成,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+77,バルーンつかい,ビンゴバルーンで累計100ライン,実機参考,累積達成,獲得済み（画像確認）,72,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+78,お花屋さん,ハッピーフラワーで花を累計200個咲かせる,実機参考,累積達成,獲得済み（画像確認）,73,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+79,おやつはドロップ,アニマドロップで累計10回全消し,実機参考,累積達成,獲得済み（画像確認）,74,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+80,ビリビリきちゃう！,"サンダースマッシュで累計10,000個破壊",実機参考,累積達成,未取得（枠推定）,75,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+81,星占い,"トゥインクルリンクで累計1,000LINK",実機参考,累積達成,獲得済み（画像確認）,76,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+82,宇宙の掃除屋,メテオボンバーで宝箱累計100個,実機参考,累積達成,獲得済み（画像確認）,77,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+83,射的屋さん,ビンゴショットで累計200ライン,実機参考,累積達成,獲得済み（画像確認）,78,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+84,炭鉱家,マジカルマインで宝箱累計200個,実機参考,累積達成,獲得済み（画像確認）,79,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+85,調合師,ビンゴエリクサーで累計100ライン,実機参考,累積達成,獲得済み（画像確認）,80,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+86,デストロイヤー,"チェーンボンバーで1,000列発掘",実機参考,累積達成,未取得（枠推定）,81,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+87,ラインメーカー,ビンゴガーデンで累計500ライン,実機参考,累積達成,未取得（枠推定）,82,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+88,ツリークライマー,"アニマツリーで累計5,000階到達",実機参考,累積達成,未取得（枠推定）,83,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+89,ハチミツ屋さん,"ハニーエイト/ハニーファイブでハチミツ累計8,888個",実機参考,累積達成,獲得済み（画像確認）,84,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+90,農民,"ビンゴファームで累計2,000ライン",実機参考,累積達成,未取得（枠推定）,85,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+91,空の旅人,ビンゴバルーンで累計500ライン,実機参考,累積達成,未取得（枠推定）,86,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+92,はなさかアニマ,"ハッピーフラワーで花を累計1,000個咲かせる",実機参考,累積達成,獲得済み（画像確認）,87,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+93,主食はドロップ,アニマドロップで累計100回全消し,実機参考,累積達成,獲得済み（画像確認）,88,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+94,ゴロゴロピシャーン！,"サンダースマッシュで累計50,000個破壊",実機参考,累積達成,未取得（枠推定）,89,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+95,星間夜行,"トゥインクルリンクで累計5,000LINK",実機参考,累積達成,未取得（枠推定）,90,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+96,コメットハンター,メテオボンバーで宝箱累計500個,実機参考,累積達成,獲得済み（画像確認）,91,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+97,ショット・ショット・ショット,"ビンゴショットで累計1,000ライン",実機参考,累積達成,未取得（枠推定）,92,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+98,マジシャン,"マジカルマインで宝箱累計1,000個",実機参考,累積達成,未取得（枠推定）,93,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+99,アルケミスト,ビンゴエリクサーで累計500ライン,実機参考,累積達成,獲得済み（画像確認）,94,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+100,爆連鎖☆亜弐魔,"チェーンボンバーで2,000列発掘",実機参考,累積達成,未取得（枠推定）,95,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+101,サウザンド・ライン,"ビンゴガーデンで累計1,000ライン",実機参考,累積達成,未取得（枠推定）,96,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+102,木登りの達人,"アニマツリーで累計10,000階到達",実機参考,累積達成,未取得（枠推定）,97,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+103,ハニーハンター,"ハニーエイト/ハニーファイブでハチミツ累計88,888個",実機参考,累積達成,未取得（枠推定）,98,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+104,大農園領主,"ビンゴファームで累計5,000ライン",実機参考,累積達成,未取得（枠推定）,99,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+105,空が私を呼んでいる,"ビンゴバルーンで累計1,000ライン",実機参考,累積達成,未取得（枠推定）,100,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+106,花鳥風月,"ハッピーフラワーで花を累計2,000個咲かせる",実機参考,累積達成,獲得済み（画像確認）,101,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+107,アニマドロッパー,アニマドロップで累計500回全消し,実機参考,累積達成,獲得済み（画像確認）,102,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+108,かみなりさま,"サンダースマッシュで累計100,000個破壊",実機参考,累積達成,未取得（枠推定）,103,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+109,TheAnimaPrince,"トゥインクルリンクで累計10,000LINK",実機参考,累積達成,未取得（枠推定）,104,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+110,メテオキング,"メテオボンバーで宝箱累計1,000個",実機参考,累積達成,獲得済み（画像確認）,105,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+111,ロビンフッド,"ビンゴショットで累計2,000ライン",実機参考,累積達成,未取得（枠推定）,106,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+112,エレメンタラー,"マジカルマインで宝箱累計2,000個",実機参考,累積達成,未取得（枠推定）,107,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+113,錬金術師,"ビンゴエリクサーで累計1,000ライン",実機参考,累積達成,獲得済み（画像確認）,108,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+114,ミラクル4,ビンゴガーデンで4ライン（最高役）,実機参考,特殊役・最高役,未取得（枠推定）,109,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+115,ミラクル3,ビンゴガーデンで3ライン,実機参考,特殊役・最高役,未取得（枠推定）,110,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+116,10チェーン,チェーンボンバーで10連鎖以上。後続数字は更新される,実機参考,特殊役・最高役,未取得（枠推定）,111,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+117,オールイレイサー,チェーンボンバーで全消し,実機参考,特殊役・最高役,未取得（枠推定）,112,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+118,クライマー30,アニマツリーで30階到達,実機参考,特殊役・最高役,未取得（枠推定）,113,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+119,クライマー40,アニマツリーで40階到達,実機参考,特殊役・最高役,未取得（枠推定）,114,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+120,クライマー50,アニマツリーで50階以上到達,実機参考,特殊役・最高役,未取得（枠推定）,115,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+121,ハッピーハニー8,ハニーエイトかハニーファイブで8連チャン以上,実機参考,特殊役・最高役,未取得（枠推定）,116,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+122,スーパーファーマー,ビンゴファームでスーパーライン,実機参考,特殊役・最高役,獲得済み（画像確認）,117,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+123,ハイパーファーマー,ビンゴファームでハイパーライン,実機参考,特殊役・最高役,獲得済み（画像確認）,118,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+124,wi-fiボーナスゲッター,Wi-Fiアニマスロットで連チャンモード突入,実機参考,特殊役・最高役,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+125,wi-fiフィーバー10,Wi-Fiアニマスロットで10連チャン以上,実機参考,特殊役・最高役,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+126,セブンバルーン,ビンゴバルーンで7ライン,実機参考,特殊役・最高役,獲得済み（画像確認）,119,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+127,フルブルーム,ハッピーフラワーで全獲り,実機参考,特殊役・最高役,未取得（枠推定）,120,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+128,オールドロップ,アニマドロップの1ゲーム中に全消し1回,実機参考,特殊役・最高役,獲得済み（画像確認）,121,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+129,ツインドロップ,アニマドロップの1ゲーム中に全消し2回,実機参考,特殊役・最高役,獲得済み（画像確認）,122,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+130,ドロップトリニティ,アニマドロップの1ゲーム中に全消し3回,実機参考,特殊役・最高役,獲得済み（画像確認）,123,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+131,ミラクルドロップ,アニマドロップの1ゲーム中に全消し4回以上,実機参考,特殊役・最高役,未取得（枠推定）,124,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+132,ハニーファイブ,ハニーファイブで5連チャン,実機参考,特殊役・最高役,獲得済み（画像確認）,125,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+133,ハニーシックスティーン,ハニーファイブで16連チャン,実機参考,特殊役・最高役,未取得（枠推定）,126,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+134,スウィートゲット,クラッシュドロップでスウィートJPを1回獲得,実機参考,特殊役・最高役,獲得済み（画像確認）,127,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+135,スウィートアゲイン,クラッシュドロップでスウィートJPを2回獲得,実機参考,特殊役・最高役,獲得済み（画像確認）,128,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+136,千歳飴,"クラッシュドロップで継続ドロップが1,000個以上の状態から継続成功",実機参考,特殊役・最高役,未取得（枠推定）,129,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+137,左団扇,サンダースマッシュで左側を全消し,実機参考,特殊役・最高役,未取得（枠推定）,130,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+138,右に出るものはいない,サンダースマッシュで右側を全消し,実機参考,特殊役・最高役,未取得（枠推定）,131,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+139,サンダースマッシャー,サンダースマッシュで左右を両方全消し,実機参考,特殊役・最高役,未取得（枠推定）,132,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+140,青天の霹靂,サンダーブレイクの全ロッタで配当獲得,実機参考,特殊役・最高役,未取得（枠推定）,133,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+141,紫電一閃,サンダーブレイクで最上段の配当獲得,実機参考,特殊役・最高役,未取得（枠推定）,134,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+142,10倍プッシュ,ヘブンツリーで10倍以上（倍率に応じ称号数字が更新）,実機参考,特殊役・最高役,獲得済み（画像確認）,135,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+143,ヘブンクライマー35,ヘブンツリーで35階以上に到達（階数に応じ更新）,実機参考,特殊役・最高役,未取得（枠推定）,136,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+144,Mr.LINK18,トゥインクルリンクで18LINK以上,実機参考,特殊役・最高役,獲得済み（画像確認）,137,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+145,惑星キャッチャー,トゥインクルリンクでプラネットボーナス獲得,実機参考,特殊役・最高役,未取得（枠推定）,138,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+146,10連流星群,メテオボンバーで10連チャン以上（数字は変動）,実機参考,特殊役・最高役,獲得済み（画像確認）,139,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+147,メテオール,メテオボンバーで全消し,実機参考,特殊役・最高役,獲得済み（画像確認）,140,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+148,モーニングブルーム,ファンシーフラワーで全獲り,実機参考,特殊役・最高役,未取得（枠推定）,141,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+149,チケットコレクター5,ビンゴショットでシンキングタイム前にチケット5枚以上（数字は最大枚数に更新）,実機参考,特殊役・最高役,獲得済み（画像確認）,142,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+150,レインボーチケット,ビンゴショットでシンキングタイム前に全色チケットを集める,実機参考,特殊役・最高役,獲得済み（画像確認）,143,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+151,神様をお呼び？,ビンゴショットのシンキングタイム後にゴッドアニマの黒板が表示される,実機参考,特殊役・最高役,未取得（枠推定）,144,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+152,ラッキーショット,ビンゴショットで10ライン,実機参考,特殊役・最高役,未取得（枠推定）,145,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+153,BLACKOUT,ビンゴショットで12ライン,実機参考,特殊役・最高役,未取得（枠推定）,146,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+154,魔法使い見習い,マジカルマインで1周目のボーナスステップを獲得,実機参考,特殊役・最高役,獲得済み（画像確認）,147,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+155,継続こそ力なり,マジカルマインで3周目のボーナスステップを獲得,実機参考,特殊役・最高役,未取得（枠推定）,148,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+156,箱泥棒,マジカルマインで宝箱6個を取り、クリスタルだけが残る,実機参考,特殊役・最高役,獲得済み（画像確認）,149,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+157,マジカルクラッシャー,マジカルマインで全消し,実機参考,特殊役・最高役,獲得済み（画像確認）,150,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+158,最大強化,マジカルマインで最大オッズへ強化,実機参考,特殊役・最高役,未取得（枠推定）,151,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+159,エリクサー症候群,ビンゴエリクサーのフリー最大拡張時に配当なし,実機参考,特殊役・最高役,獲得済み（画像確認）,152,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+160,一直線,ビンゴエリクサーで7パネルビンゴ,実機参考,特殊役・最高役,獲得済み（画像確認）,153,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+161,奇跡の錬金術,ビンゴエリクサーで所定の複数ライン・パネルビンゴのアルケミーボーナス獲得,実機参考,特殊役・最高役,獲得済み（画像確認）,154,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+162,稀有な魔法使い,ミラクルマインで全消し,実機参考,特殊役・最高役,獲得済み（画像確認）,155,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+163,ミラクルチェイン9,ミラクルマインで継続9ゲーム以上（数字は変動）,実機参考,特殊役・最高役,未取得（枠推定）,156,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+164,アルティメットⅢ,15種類のゲーム中、最高役を3種類獲得,実機参考,アルティメット,獲得済み（画像確認）,157,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+165,アルティメットⅣ,15種類のゲーム中、最高役を4種類獲得,実機参考,アルティメット,獲得済み（画像確認）,158,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+166,アルティメットⅤ,15種類のゲーム中、最高役を5種類獲得,実機参考,アルティメット,獲得済み（画像確認）,159,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+167,アルティメットⅥ,15種類のゲーム中、最高役を6種類獲得,実機参考,アルティメット,獲得済み（画像確認）,160,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+168,アルティメットⅦ,15種類のゲーム中、最高役を7種類獲得,実機参考,アルティメット,未取得（枠推定）,161,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+169,アルティメットⅧ,15種類のゲーム中、最高役を8種類獲得,実機参考,アルティメット,未取得（枠推定）,162,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+170,アルティメットⅨ,15種類のゲーム中、最高役を9種類獲得,実機参考,アルティメット,未取得（枠推定）,163,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+171,アルティメットⅩ,15種類のゲーム中、最高役を10種類獲得,実機参考,アルティメット,未取得（枠推定）,164,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+172,アルティメットⅪ,15種類のゲーム中、最高役を11種類獲得,実機参考,アルティメット,未取得（枠推定）,165,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+173,アルティメットⅫ,15種類のゲーム中、最高役を12種類獲得,実機参考,アルティメット,未取得（枠推定）,166,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+174,アルティメットⅩⅢ,15種類のゲーム中、最高役を13種類獲得,実機参考,アルティメット,未取得（枠推定）,167,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+175,アルティメットⅩⅣ,15種類のゲーム中、最高役を14種類獲得,実機参考,アルティメット,未取得（枠推定）,168,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+176,アルティメットⅩⅤ,15種類のゲーム中、最高役を15種類獲得,実機参考,アルティメット,未取得（枠推定）,169,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+177,裏アルティメットⅢ,シークレットゲームの最高役を3種類獲得,実機参考,アルティメット,獲得済み（画像確認）,170,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+178,裏アルティメットⅣ,シークレットゲームの最高役を4種類獲得,実機参考,アルティメット,未取得（枠推定）,171,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+179,裏アルティメットⅤ,シークレットゲームの最高役を5種類獲得,実機参考,アルティメット,未取得（枠推定）,172,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+180,裏アルティメットⅥ,シークレットゲームの最高役を6種類獲得,実機参考,アルティメット,未取得（枠推定）,173,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+181,クリスタルハンター,クリスタルリンゴを獲得,実機参考,メダル・モード,獲得済み（画像確認）,174,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+182,リンゴオールスター,緑・赤・銅・銀・金・虹・クリスタルの全種類のリンゴを獲得,実機参考,メダル・モード,獲得済み（画像確認）,175,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+183,大収穫3,1ゲームでリンゴを3個以上獲得（数字は変動）,実機参考,メダル・モード,獲得済み（画像確認）,176,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+184,アンラッキー5,3ゲーム以上BETして無配当が5ゲーム連続（数字は変動）,実機参考,メダル・モード,未取得（枠推定）,177,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+185,ビンゴビギナー,"ビンゴガーデン累計WIN 1,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,178,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+186,ボンバー体験,"チェーンボンバー累計WIN 1,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,179,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+187,木のぼり初心者,"アニマツリー/ヘブンツリー累計WIN 1,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,180,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+188,初りんご,リンゴ（ワンダーステップ）初獲得,実機参考,メダル・モード,獲得済み（画像確認）,181,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+189,ボンバー大好き,"チェーンボンバーの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,182,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+190,ビンゴ大好き,"ビンゴガーデンの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,183,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+191,木登り大好き,"アニマツリー/ヘブンツリーの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,184,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+192,りんご大好き,リンゴ（ワンダーステップ）累計100個,実機参考,メダル・モード,獲得済み（画像確認）,185,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+193,ハチミツ大好き,"ハニーエイト/ハニーファイブの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,186,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+194,野菜大好き,"ビンゴファームの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,187,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+195,スロット大好き,"Wi-Fiアニマスロットの累計WIN 10,000枚以上",実機参考,メダル・モード,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+196,風船大好き,"ビンゴバルーンの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,188,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+197,お花大好き,"ハッピーフラワー/ファンシーフラワーの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,189,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+198,ドロップ落とし,"アニマドロップ/クラッシュドロップの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,190,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+199,雷鳴,"サンダースマッシュ/サンダーブレイクの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,191,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+200,天体観測,"トゥインクルリンクの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,192,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+201,スペースデブリ,"メテオボンバーの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,193,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+202,的当て大好き,"ビンゴショットの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,194,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+203,魔法大好き,"マジカルマインの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,195,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+204,エリクサー大好き,"ビンゴエリクサーの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,196,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+205,ナインビンゴマン,"ナインビンゴの累計WIN 10,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,197,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+206,I LOVE ボンバー,"チェーンボンバーの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,198,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+207,I LOVE ビンゴ,"ビンゴガーデンの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,199,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+208,I LOVE ツリー,"アニマツリー/ヘブンツリーの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,200,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+209,I LOVE アップル,"リンゴ（ワンダーステップ）累計1,000個獲得",実機参考,メダル・モード,獲得済み（画像確認）,201,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+210,I LOVE ハニー,"ハニーエイト/ハニーファイブの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,202,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+211,I LOVE ファーム,"ビンゴファームの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,203,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+212,I LOVE バルーン,"ビンゴバルーンの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,204,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+213,I LOVE フラワー,"ハッピーフラワー/ファンシーフラワーの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,205,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+214,I LOVE ドロップ,"アニマドロップ/クラッシュドロップの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,206,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+215,I LOVE サンダー,"サンダースマッシュ/サンダーブレイクの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,207,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+216,I LOVE リンク,"トゥインクルリンクの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,208,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+217,I LOVE メテオ,"メテオボンバーの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,209,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+218,I LOVE ショット,"ビンゴショットの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,210,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+219,I LOVE マイン,"マジカルマインの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,211,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+220,I LOVE エリクサー,"ビンゴエリクサーの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,212,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+221,ナインビンゴマスター,"ナインビンゴの累計WIN 100,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,213,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+222,チェーンキング,"チェーンボンバーの累計WIN 1,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,214,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+223,ビンゴマイスター,"ビンゴガーデンの累計WIN 1,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,215,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+224,宇宙に届きしもの,"アニマツリー/ヘブンツリーの累計WIN 1,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,216,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+225,スイートハニー,"ハニーエイト/ハニーファイブの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,217,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+226,ドリームファーマー,"ビンゴファームの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,218,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+227,天空の住人,"ビンゴバルーンの累計WIN 1,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,219,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+228,お花畑の住人,"ハッピーフラワー/ファンシーフラワーの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,220,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+229,一人じゃ食べきれない,"アニマドロップ/クラッシュドロップの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,221,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+230,雷王,"サンダースマッシュ/サンダーブレイクの累計WIN 1,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,222,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+231,アマチュア天文家,"トゥインクルリンクの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,223,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+232,シューティングスター,"メテオボンバーの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,224,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+233,百万発百万中,"ビンゴショットの累計WIN 1,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,225,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+234,無限詠唱,"マジカルマインの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,226,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+235,ミキサー,"ビンゴエリクサーの累計WIN 1,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,227,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+236,ナインビンゴキング,"ナインビンゴの累計WIN 1,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,228,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+237,チェーンエンペラー,"チェーンボンバーの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,229,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+238,ビンゴブレイカー,"ビンゴガーデンの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,230,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+239,月まで届け！,"アニマツリー/ヘブンツリーの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,231,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+240,BeeBeeKING,"ハニーエイト/ハニーファイブの累計WIN 2,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,232,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+241,グレートファーマー,"ビンゴファームの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,233,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+242,OVER THE SKY,"ビンゴバルーンの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,234,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+243,百花繚乱,"ハッピーフラワー/ファンシーフラワーの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,235,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+244,ドルチェクイーン,"アニマドロップ/クラッシュドロップの累計WIN 2,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,236,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+245,雷神,"サンダースマッシュ/サンダーブレイクの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,237,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+246,天文学者,"トゥインクルリンクの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,238,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+247,メテ王,"メテオボンバーの累計WIN 2,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,239,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+248,ショットコーラー,"ビンゴショットの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,240,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+249,Wonder's Wand,"マジカルマインの累計WIN 2,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,241,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+250,ポーションコレクター,"ビンゴエリクサーの累計WIN 2,000,000枚以上",実機参考,メダル・モード,獲得済み（画像確認）,242,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+251,ナインビンゴゴッド,"ナインビンゴの累計WIN 2,000,000枚以上",実機参考,メダル・モード,未取得（枠推定）,243,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+252,アップルドリーム,"リンゴ（ワンダーステップ）累計10,000個獲得",実機参考,メダル・モード,未取得（枠推定）,244,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+253,トリプルWIN,シングル3ゲーム全てで配当,実機参考,メダル・モード,未取得（枠推定）,245,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+254,ダブルエース,シングル3ゲーム全てでBETの2倍以上の配当,実機参考,メダル・モード,未取得（枠推定）,246,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+255,トリプルエース,シングル3ゲーム全てでBETの3倍以上の配当,実機参考,メダル・モード,未取得（枠推定）,247,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+256,シックスWIN,マルチ6ゲーム全てで配当,実機参考,メダル・モード,獲得済み（画像確認）,248,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+257,オールWIN,オールモード15ゲーム全てで配当,実機参考,メダル・モード,未取得（枠推定）,249,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+258,スーパーマルチWIN,超マルチ8ゲーム全てで配当,実機参考,メダル・モード,未取得（枠推定）,250,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+259,ハイパーマルチWIN,超超マルチ10ゲーム全てで配当,実機参考,メダル・モード,獲得済み（画像確認）,251,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+260,アルティメットマルチWIN,極マルチ12ゲーム全てで配当,実機参考,メダル・モード,未取得（枠推定）,252,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+261,SPアルティメットマルチWIN,超極マルチ14ゲーム全てで配当,実機参考,メダル・モード,獲得済み（画像確認）,253,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+262,オールライナー,ナインビンゴ9ゲーム全てで配当,実機参考,メダル・モード,未取得（枠推定）,254,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+263,ナイスチョイス,ナインビンゴカスタム9ゲーム全てで配当,実機参考,メダル・モード,未取得（枠推定）,255,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+264,エクセレントチョイス,ナインビンゴ超カスタム9ゲーム全てで配当,実機参考,メダル・モード,獲得済み（画像確認）,256,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+265,かんたんオール,ナインビンゴ超カスタムで9ゲーム同一種を選びオールライン（配当しやすいゲーム）,実機参考,メダル・モード,獲得済み（画像確認）,257,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+266,エキスパートライナー,ナインビンゴ超カスタムで9ゲーム同一種を選びオールライン（配当しづらいゲーム）,実機参考,メダル・モード,未取得（枠推定）,258,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+267,サプライズボックス,ナインビンゴ超カスタムのライン宝箱からBETの30倍配当,実機参考,メダル・モード,未取得（枠推定）,259,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+268,濡れ手にアワー5,5ゲーム以上連続でBET以上の配当（数字は変動）,実機参考,メダル・モード,獲得済み（画像確認）,260,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+269,ミリオネアー,"総WIN 1,000,000枚以上",実機参考,スター・アニマップ,獲得済み（画像確認）,261,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+270,富豪,"総WIN 5,000,000枚以上",実機参考,スター・アニマップ,獲得済み（画像確認）,262,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+271,大富豪,"総WIN 10,000,000枚以上",実機参考,スター・アニマップ,獲得済み（画像確認）,263,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+272,億万長者,"総WIN 20,000,000枚以上",実機参考,スター・アニマップ,獲得済み（画像確認）,264,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+273,☆使い,スター累計100個獲得,実機参考,スター・アニマップ,獲得済み（画像確認）,265,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+274,☆に愛されしもの,スター累計500個獲得,実機参考,スター・アニマップ,獲得済み（画像確認）,266,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+275,スターダスト,"スター累計1,000個獲得",実機参考,スター・アニマップ,獲得済み（画像確認）,267,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+276,ミルキーウェイ,"スター累計5,000個獲得",実機参考,スター・アニマップ,獲得済み（画像確認）,268,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+277,探検家,アニマロッタ4のアニマップ1ページ目を完成,実機参考,スター・アニマップ,獲得済み（画像確認）,269,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+278,冒険王,アニマロッタ4のアニマップ2ページ目を完成,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+279,天界の訪問者,アニマロッタ5のアニマップ1ページ目を完成,実機参考,スター・アニマップ,獲得済み（画像確認）,270,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+280,雲の大樹の踏破者,アニマロッタ5のアニマップ2ページ目を完成,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+281,星を詠む者,アニマロッタ6のアニマップ1ページ目を完成,実機参考,スター・アニマップ,獲得済み（画像確認）,271,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+282,星の物語を紐解きし者,アニマロッタ6のアニマップ2ページ目を完成,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+283,アニマランドの来場者,アニマロッタ7のアニマップ1ページ目を完成,実機参考,スター・アニマップ,獲得済み（画像確認）,272,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+284,アニマランドの王者,アニマロッタ7のアニマップ2ページ目を完成,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+285,はじまりの大地,アニマロッタ8のアニマップ1ページ目を完成,実機参考,スター・アニマップ,獲得済み（画像確認）,273,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+286,夢見る勇者,アニマロッタ8のアニマップ2ページ目を完成,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+287,ストップTHEアニマ,アニマ固定モードを使用,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+288,たんとお食べ,ビッグクッキーで1匹のアニマを最大サイズへ,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+289,一寸アニマ,スモールキャンディで1匹のアニマを最小サイズへ,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+290,はい、も～いっかい！,スタンプショップのスロットが継続,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+291,確変中♪,スタンプショップのスロットで5連チャン,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+292,キラーチューン,ワンダーチャンスBGMを変更,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+293,ワンダーDJ,複数シリーズのワンダーBGMに変更,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+294,アニマ派遣,応援に派遣したアニマ先で配当発生,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+295,あの頃を思い出して,過去シリーズのフレーム・背景・画面・BGMを組み合わせる（詳細未確定）,実機側も未確定,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+296,箱推し,ガチャで推しうちわを10種類獲得,実機参考,スター・アニマップ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+297,どうしてもこれが取れなくて,スターを消費しコンプリートを短縮,実機参考,ショップ・演出,獲得済み（画像確認）,274,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+298,あれ、取れちゃった,コンプリート短縮後に該当のJP獲得,実機参考,ショップ・演出,獲得済み（画像確認）,275,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+299,らっふるチョイス♪,ワンダーチャンスBGMをシリーズ1の曲にしてJP獲得,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+300,とろとろアップルプリン♪,ワンダーチャンスBGMをシリーズ2の曲にしてJP獲得,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+301,パクむしゃペロリ♪,ワンダーチャンスBGMをシリーズ3の曲にしてJP獲得,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+302,あまいあまいりんごあめ♪,ワンダーチャンスBGMをシリーズ4の曲にしてJP獲得,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+303,マシュマロふわふわ♪,ワンダーチャンスBGMをシリーズ5の曲にしてJP獲得,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+304,夜空のきらきらお星さま♪,ワンダーチャンスBGMをシリーズ6の曲にしてJP獲得,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+305,楽しいメリーゴーラウンド♪,ワンダーチャンスBGMをシリーズ7の曲にしてJP獲得,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+306,すべてのはじまり,初代アニマロッタの背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+307,サクラフェスティバル,アニマロッタ2（春）の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+308,サマーフェスティバル,アニマロッタ2（夏）の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+309,モミジフェスティバル,アニマロッタ2（秋）の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+310,スノーフェスティバル,アニマロッタ2（冬）の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+311,伝説のアニマ,アニマロッタ3の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+312,おとぎの国のアニマ,アニマロッタ4の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+313,アニマと雲の大樹,アニマロッタ5の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+314,アニマと星の物語,アニマロッタ6の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+315,夢のアニマランド,アニマロッタ7の背景とBGMを揃えてプレー,実機参考,ショップ・演出,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+316,チアリーダー,応援したプレイヤーがJPを獲得,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+317,噂の人,他プレイヤーに累計10回応援される,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+318,人気者,他プレイヤーに累計50回応援される,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+319,有名人,他プレイヤーに累計100回応援される,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+320,国民的アニマ,他プレイヤーに累計500回応援される,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+321,世界的アニマ,"他プレイヤーに累計1,000回応援される",実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+322,ウォーカー,他プレイヤーへの応援に累計10回出かける,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+323,旅行者,他プレイヤーへの応援に累計50回出かける,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+324,夢の旅人,他プレイヤーへの応援に累計100回出かける,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+325,ワンダートラベラー,他プレイヤーへの応援に累計500回出かける,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+326,放浪アニマ,"他プレイヤーへの応援に累計1,000回出かける",実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+327,スタンプ始めました,他プレイヤーにスタンプを累計10回送る,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+328,ご近所づきあい,他プレイヤーにスタンプを累計100回送る,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+329,幸せお祝い隊,"他プレイヤーにスタンプを累計1,000回送る",実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+330,夢の発信源,"他プレイヤーにスタンプを累計10,000回送る",実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+331,友達100人出来るかな？,他プレイヤーからスタンプを累計10回受け取る,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+332,皆が友達,他プレイヤーからスタンプを累計100回受け取る,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+333,愛され上手,"他プレイヤーからスタンプを累計1,000回受け取る",実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+334,愛の金字塔,"他プレイヤーからスタンプを累計10,000回受け取る",実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+335,ANIMA★JAPAN,47都道府県のご当地スタンプをコンプリート,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+336,スタンプ愛好家,スタンプ10種類取得,実機参考,応援・スタンプ,獲得済み（画像確認）,276,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+337,アニマコレクション,スタンプ50種類取得,実機参考,応援・スタンプ,獲得済み（画像確認）,277,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+338,HOP STAMP JUMP,スタンプ100種類取得,実機参考,応援・スタンプ,獲得済み（画像確認）,278,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+339,幸せのお裾分け,他人から届いたスタンプを入手,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+340,棚ぼた★,他人からのスタンプを受けた際スターを入手,実機参考,応援・スタンプ,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+341,踊り子,アニマの動き10種類取得,実機参考,アニマ育成・交流,獲得済み（画像確認）,279,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+342,ダンサー,アニマの動き30種類取得,実機参考,アニマ育成・交流,獲得済み（画像確認）,280,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+343,シャルウィダンス,アニマの動き50種類取得,実機参考,アニマ育成・交流,獲得済み（画像確認）,281,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+344,見よう見まね,アニマの動きを一定数取得（具体数は未確定）,実機側も未確定,アニマ育成・交流,未取得（枠推定）,282,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+345,センターは俺のもの！,アニマの動き100種類取得,実機参考,アニマ育成・交流,未取得（枠推定）,283,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+346,ブリーダー,アニマを2匹登録,実機参考,アニマ育成・交流,獲得済み（画像確認）,284,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+347,トップブリーダー,アニマを5匹登録,実機参考,アニマ育成・交流,獲得済み（画像確認）,285,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+348,アニマタッチ,アニマを100回タッチ,実機参考,アニマ育成・交流,獲得済み（画像確認）,286,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+349,アニマイヂリ,"アニマを1,000回タッチ",実機参考,アニマ育成・交流,獲得済み（画像確認）,287,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+350,アニマアソビ,"アニマを5,000回タッチ",実機参考,アニマ育成・交流,未取得（枠推定）,288,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+351,イイネ！,多数のプレイヤーを応援（具体条件は未確定）,実機側も未確定,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+352,アニマと仲良し,8種類のアニマと交流,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+353,ドラゴンロード,クリスタルJPを1回獲得,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+354,竜神,クリスタルJPを累計6回獲得,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+355,レジェンドオブドラゴン,クリスタルJPを累計11回獲得,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+356,夢の住人,バクを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+357,夢から醒めない,バクの色と動きを全て解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+358,おとぎの住人,ヒョウを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+359,おとぎの貴族,ヒョウの色と動きを全て解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+360,幸せの導き手,エンジェルを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+361,神の御使い,エンジェルの色と動きを全て解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+362,はじめまして神です,ゴッドを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+363,神様、仏様、アニマ様,ゴッドの色と動きを全て解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+364,やぎさんメェール,ヤギを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+365,カプリコーン,ヤギの色と動きを全て解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+366,変幻自在,カメレオンを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+367,アニマジシャン,カメレオンの色と動きを全て解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+368,ふわもこ,ミニドラゴンを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+369,おままごとしよっ,ミニドラゴンの色と動きを全て解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+370,みんなと仲良し,25種類のアニマと交流,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+371,こんにちはミニマ,ミニマ1匹を解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+372,ミニマムアニマム,ミニマ5匹を解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+373,ミニマ友の会,ミニマ10匹を解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+374,ミニまつり,ミニマ15匹を解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+375,アニマ大家族,ミニマ20匹を解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+376,ミニマスター,全てのミニマを解禁,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+377,ビッグな応援団,ビッグJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+378,スーパー応援団,スーパーJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+379,究極の応援団,アルティメットJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+380,神々の応援団,ゴッドJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+381,キラメキ応援団,クリスタルJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+382,不思議な応援団,ムーンライトJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+383,太陽の応援団,サンシャインJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+384,夢の応援団,ドリームJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+385,幻想の応援団,ファンタジーJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+386,虹色の応援団,コンプリートJPCに応援参加,実機参考,アニマ育成・交流,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+387,新たな勇者の誕生,アニマクエストを初受注,実機参考,アニマクエスト,獲得済み（画像確認）,289,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+388,初報酬,アニマクエストを初クリア,実機参考,アニマクエスト,獲得済み（画像確認）,290,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+389,敗北者,アニマクエスト10回失敗,実機参考,アニマクエスト,獲得済み（画像確認）,291,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+390,駆け出しの冒険者,アニマクエストを10回クリア,実機参考,アニマクエスト,獲得済み（画像確認）,292,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+391,話題の新人,アニマクエストを50回クリア,実機参考,アニマクエスト,未取得（枠推定）,293,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+392,中級冒険者,アニマクエストを100回クリア,実機参考,アニマクエスト,未取得（枠推定）,294,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+393,ベテラン冒険者,アニマクエストを300回クリア,実機参考,アニマクエスト,未取得（枠推定）,295,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+394,クエスト見習い,通常クエスト25％クリア,実機参考,アニマクエスト,獲得済み（画像確認）,296,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+395,クエスト中堅,通常クエスト50％クリア,実機参考,アニマクエスト,未取得（枠推定）,297,通常クエストのみの条件。SP限定6件を除いた実機の掲載順から、コナステ枠No.297に対応すると推定（2026-11-09 利用者指摘）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+396,クエスト上級者,通常クエスト75％クリア,実機参考,アニマクエスト,未取得（枠推定）,298,通常クエストのみの条件。SP限定6件を除いた実機の掲載順から、コナステ枠No.298に対応すると推定（2026-11-09 利用者指摘）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+397,ギルド結成,SPクエスト3をクリア（クエストショップ解禁）,実機参考,アニマクエスト,コナステ枠なし（SP限定）,,SPクエストが条件。コナステ版にSPクエストは存在せず（利用者報告）、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、枠自体がないと判断（2026-11-09）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+398,勇者,SPクエスト22をクリアしアクセサリー取得後プレー,実機参考,アニマクエスト,コナステ枠なし（SP限定）,,SPクエストが条件。コナステ版にSPクエストは存在せず（利用者報告）、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、枠自体がないと判断（2026-11-09）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+399,シーフ,SPクエスト25をクリアしアクセサリー取得後プレー,実機参考,アニマクエスト,コナステ枠なし（SP限定）,,SPクエストが条件。コナステ版にSPクエストは存在せず（利用者報告）、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、枠自体がないと判断（2026-11-09）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+400,ヒーラー,SPクエスト27をクリアしアクセサリー取得後プレー,実機参考,アニマクエスト,コナステ枠なし（SP限定）,,SPクエストが条件。コナステ版にSPクエストは存在せず（利用者報告）、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、枠自体がないと判断（2026-11-09）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+401,魔導士,SPクエスト28をクリアしアクセサリー取得後プレー,実機参考,アニマクエスト,コナステ枠なし（SP限定）,,SPクエストが条件。コナステ版にSPクエストは存在せず（利用者報告）、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、枠自体がないと判断（2026-11-09）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+402,End of Journey,SPクエスト29をクリアし報告,実機参考,アニマクエスト,コナステ枠なし（SP限定）,,SPクエストが条件。コナステ版にSPクエストは存在せず（利用者報告）、未取得5枠はSPを除いた順序で通常クエスト称号に対応するため、枠自体がないと判断（2026-11-09）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+403,ワールドトラベラー,通常クエスト全128種を受注,実機参考,アニマクエスト,未取得（枠推定）,299,通常クエストのみの条件。SP限定6件を除いた実機の掲載順から、コナステ枠No.299に対応すると推定（2026-11-09 利用者指摘）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+404,エンドコンテンツ,通常・SP全クエストの受注が条件と推測（未確定）／コナステ版：通常クエスト全128種を受注（コナステ版にSPクエストがないため、実機条件からSP部分を除いた読み替え）,実機側も未確定,アニマクエスト,未取得（枠推定）,300,実機ブログでは通常・SP全クエストの受注と推測。コナステ版ではSPクエストがないため「通常クエスト全128種を受注」と読み替え、枠No.300に対応すると推定,https://blog.livedoor.jp/unyoko/archives/52152444.html
+405,伝説の勇者,通常・SPの全クエストをクリア／コナステ版：通常クエスト全128種をクリア＝達成率100%（実機条件からSP部分を除いた読み替え）,実機参考,アニマクエスト,未取得（枠推定）,301,実機では通常・SPの全クエストをクリア。コナステ版では「通常クエスト全128種をクリア（達成率100%）」と読み替え、枠No.301に対応すると推定,https://blog.livedoor.jp/unyoko/archives/52152444.html
+406,スウィートスプリング,3〜5月の期間中にJPを獲得,実機参考,季節・プレー日数,獲得済み（画像確認）,302,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+407,ホットサマー,6〜8月の期間中にJPを獲得,実機参考,季節・プレー日数,獲得済み（画像確認）,303,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+408,ラッキーオータム,9〜11月の期間中にJPを獲得,実機参考,季節・プレー日数,獲得済み（画像確認）,304,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+409,スマイルウインター,12〜2月の期間中にJPを獲得,実機参考,季節・プレー日数,未取得（枠推定）,305,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+410,グレートオールシーズン,四季全てで季節JPを取得,実機参考,季節・プレー日数,未取得（枠推定）,306,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+411,季節の旅人,初プレーから丸1年経過後に再プレー,実機参考,季節・プレー日数,未取得（枠推定）,307,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+412,ワンデーアニマ,累計プレー24時間,実機参考,季節・プレー日数,獲得済み（画像確認）,308,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+413,ウィークリーアニマ,累計プレー168時間,実機参考,季節・プレー日数,獲得済み（画像確認）,309,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+414,マンスリーアニマ,累計プレー720時間,実機参考,季節・プレー日数,未取得（枠推定）,310,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+415,サウザンプレイング,"累計プレー1,000時間",実機参考,季節・プレー日数,未取得（枠推定）,311,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+416,オールウィーク,曜日7種類すべてでプレー,実機参考,季節・プレー日数,獲得済み（画像確認）,312,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+417,ビューティフルサンデー,土日のプレー日数合計5日,実機参考,季節・プレー日数,獲得済み（画像確認）,313,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+418,おかえりなさい,2日連続プレー,実機参考,季節・プレー日数,獲得済み（画像確認）,314,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+419,アニマに夢中,3日連続プレー,実機参考,季節・プレー日数,獲得済み（画像確認）,315,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+420,アニマニア,4日連続プレー,実機参考,季節・プレー日数,獲得済み（画像確認）,316,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+421,アニマっしぐら,5日連続プレー,実機参考,季節・プレー日数,獲得済み（画像確認）,317,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+422,アニマ中毒,6日連続プレー,実機参考,季節・プレー日数,獲得済み（画像確認）,318,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+423,もうアニマしか見えない,7日連続プレー,実機参考,季節・プレー日数,獲得済み（画像確認）,319,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+424,もうアニマしか見えない8,8日以上連続プレー（数字は日数に応じ更新）,実機参考,季節・プレー日数,獲得済み（画像確認）,320,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+425,アニマde仕事,1日合計8時間プレー,実機参考,季節・プレー日数,獲得済み（画像確認）,321,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+426,宅配屋,Wi-Fi機器からリンゴ10個を転送,実機参考,Wi-Fi,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+427,運び屋,Wi-Fi機器からリンゴ50個を転送,実機参考,Wi-Fi,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+428,幸せを運ぶ人,Wi-Fi機器からリンゴ100個を転送,実機参考,Wi-Fi,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+429,wi-fiジャック,Wi-FiリンクプレーでJPを獲得,実機参考,Wi-Fi,コナステ枠なし（順序推定）,,画像上の枠に対応が見つからない（非公式・並び順から推定）,https://blog.livedoor.jp/unyoko/archives/52152444.html
+430,？（称号コンプリート）,全称号をコンプリート（参照元でも名称未判明）,実機側も未確定,称号収集,未取得（枠推定）,322,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+431,ゴッドオブアニマ,称号の95％獲得,実機参考,称号収集,未取得（枠推定）,323,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+432,アニマキング,称号の90％獲得,実機参考,称号収集,未取得（枠推定）,324,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+433,アニマスター,称号の80％獲得,実機参考,称号収集,未取得（枠推定）,325,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+434,アニマロッター,称号の70％獲得,実機参考,称号収集,未取得（枠推定）,326,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+435,アニマーク,称号の50％獲得,実機参考,称号収集,獲得済み（画像確認）,327,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+436,アニマン,称号の30％獲得,実機参考,称号収集,獲得済み（画像確認）,328,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+437,アニュマー,称号の20％獲得,実機参考,称号収集,獲得済み（画像確認）,329,,https://blog.livedoor.jp/unyoko/archives/52152444.html
+438,ビギニャー,称号の10％獲得,実機参考,称号収集,獲得済み（画像確認）,330,,https://blog.livedoor.jp/unyoko/archives/52152444.html
