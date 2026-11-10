@@ -1,7 +1,7 @@
 'use strict';
 /* 称号アトラス v3.1 — コナステ版のみを表示する。実機版の情報は詳細の「照合メモ」にだけ残す。
    v3.1: 獲得記録に日付を持たせ、タイムライン表示とセーブデータの書き出し／読み込みを追加。 */
-const SITE_VERSION = '3.1';
+const SITE_VERSION = '3.2';
 const DB = JSON.parse(document.getElementById('sourceData').textContent);
 const DIFF = DB.difficulty || {byId:{}, thresholds:[], tiers:[], assumptions:[], sources:{}, stars:{}, unit:'', version:'-'};
 const byId = new Map(DB.arcade.map(x => [x.arcade_id, x]));
@@ -12,7 +12,14 @@ const TIERS = DIFF.tiers || [];
 const QUEST5 = DB.meta.normalQuestCandidates || [];
 const TOTAL = DB.meta.konasteSlots || DB.slots.length;
 const SNAPSHOT = DB.meta.snapshot || '2026-11-08';
-const BASE_GOT = DB.slots.filter(s => s.obtained).length;
+const SNAPSHOTS = (DB.meta.snapshots && DB.meta.snapshots.length ? DB.meta.snapshots.map(x => x.date) : [SNAPSHOT]).slice().sort();
+const FIRST_SNAPSHOT = DB.meta.firstSnapshot || SNAPSHOTS[0];
+const confirmedOf = sh => sh.confirmed || FIRST_SNAPSHOT;
+const prevSnapshot = d => { const i = SNAPSHOTS.indexOf(d); return i > 0 ? SNAPSHOTS[i-1] : null };
+const BASE_GOT = DB.slots.filter(s => s.obtained && confirmedOf(s) === FIRST_SNAPSHOT).length;  /* 開始時点（初回の画面）の獲得数 */
+const IMG_GOT = DB.slots.filter(s => s.obtained).length;  /* 最新の画面画像での獲得数 */
+/* 画面画像で後から確認した獲得（開始時点より後の画面で「？」から名前に変わった枠）。自分で記録した枠は除く */
+function snapshotAdded(){ return DB.slots.filter(s => s.obtained && confirmedOf(s) !== FIRST_SNAPSHOT && progress.checks[s.slot] === undefined).map(s => ({slot:s.slot, sh:s, date:confirmedOf(s), snap:true})) }
 const rkc = r => 'rk-' + String(r).replace('+','p');
 const cc = r => 'var(--c-' + String(r).replace('+','p') + ')';
 
@@ -44,11 +51,20 @@ let progress = loadProgress();
 let overrides = progress.overrides;
 let storageError = false;
 function save(){ progress.updated = new Date().toISOString(); try { localStorage.setItem(PKEY, JSON.stringify(progress)); storageError = false } catch(e) { storageError = true } }
+/* 画面画像の更新で初期値と同じになった記録（日付なし）は情報を持たないので取り除く。日付のある記録は残す */
+function pruneRedundant(){ let n = 0; for (const [k, c] of Object.entries(progress.checks)) { const sh = bySlot.get(+k); if (!sh || !c) { delete progress.checks[k]; n++; continue } if (!!c.got === !!sh.obtained && !c.date) { delete progress.checks[k]; n++ } } return n }
+if (pruneRedundant()) save();
 function touch(){ progress.dirty = (progress.dirty || 0) + 1; save() }
 function qcheck(slot){ const c = progress.checks[slot]; return c === undefined ? !!bySlot.get(slot)?.obtained : !!c.got }
 function userMark(slot){ return progress.checks[slot] }
 function setGot(slot, got){ const base = !!bySlot.get(slot)?.obtained; if (got === base) delete progress.checks[slot]; else progress.checks[slot] = {got, date: got ? today() : null}; touch() }
-function setDate(slot, date){ const c = progress.checks[slot]; if (c && c.got) { c.date = date || null; touch() } }
+function setDate(slot, date){
+  let c = progress.checks[slot]; const base = !!bySlot.get(slot)?.obtained;
+  if (!c) { if (!base) return; if (!date) return; c = progress.checks[slot] = {got: true, date: null} }  /* 画像で確認済みの枠にも獲得日を付けられる */
+  if (!c.got) return;
+  if (!date && base) delete progress.checks[slot]; else c.date = date || null;
+  touch();
+}
 function setOverride(id, v){ if (v) overrides[id] = v; else delete overrides[id]; touch() }
 function acquired(){ return Object.entries(progress.checks).filter(([,c]) => c && c.got).map(([k,c]) => ({slot:+k, sh:bySlot.get(+k), date:c.date})).filter(x => x.sh) }
 if (!localStorage.getItem(PKEY)) save();
@@ -120,11 +136,12 @@ function tierProgress(){
 /* ── ヒーロー：330枠の切手シート ── */
 function renderHero(){
   const got = DB.slots.filter(s => qcheck(s.slot)).length, left = TOTAL - got;
-  const userDelta = got - BASE_GOT;
+  const userDelta = got - IMG_GOT;
   const cells = DB.slots.map(s => { const d = diff(s.arcade_id), g = qcheck(s.slot), vis = visible(s); const name = titleOf(s); const lab = `${g ? '獲得済み' : '未取得'}：${name}（No.${num(s.slot)}${d && d.rank ? '、難易度 ' + d.rank : isTier(d) ? '、努力型 T' + d.tier : ''}）`; return `<button class="cell ${g ? 'got' : 'not'} ${!s.obtained && g ? 'user' : ''} ${vis ? '' : 'dim'}" style="--c:${cellColor(d)}" data-slot="${s.slot}" title="${H(lab)}" aria-label="${H(lab)}"></button>` }).join('');
   const dimmed = listMode() || state.view === 'timeline';
-  const recent = acquired().filter(x => x.date).sort((a,b) => b.date < a.date ? -1 : b.date > a.date ? 1 : b.slot - a.slot)[0];
-  const recentHtml = recent ? `<div class="recent">最近の獲得：${fmtDate(recent.date, false)}　${rankBadge(diff(recent.sh.arcade_id), 'sm')} ${H(titleOf(recent.sh))}　<button class="linkbtn" data-view-go="timeline">タイムラインを見る</button></div>` : `<div class="recent">称号を開いて「獲得済みにする」を押すと、その日の記録がタイムラインに残ります。</div>`;
+  const dated = acquired().filter(x => x.date).concat(snapshotAdded()).sort((a,b) => b.date < a.date ? -1 : b.date > a.date ? 1 : b.slot - a.slot);
+  const recent = dated[0], sameDay = recent ? dated.filter(x => x.date === recent.date).length : 0;
+  const recentHtml = recent ? `<div class="recent">最近の獲得：${fmtDate(recent.date, false)}　${rankBadge(diff(recent.sh.arcade_id), 'sm')} ${H(titleOf(recent.sh))}${sameDay > 1 ? ` ほか${sameDay - 1}件` : ''}${recent.snap ? '<span class="small-print">（画面で確認）</span>' : ''}　<button class="linkbtn" data-view-go="timeline">タイムラインを見る</button></div>` : `<div class="recent">称号を開いて「獲得済みにする」を押すと、その日の記録がタイムラインに残ります。</div>`;
   hero.innerHTML = `<div class="hero-top"><div class="hero-text"><h1>残り <span class="n">${left}</span> 称号</h1><p>コナステ版アニマロッタの称号${TOTAL}枠のうち、${got}枠を獲得しています${userDelta ? `（${fmtDate(SNAPSHOT, false)}の画面から${userDelta > 0 ? '+' : ''}${userDelta}件）` : ''}。右の図は称号一覧の17ページを1枚に並べたもので、色は難易度ランク、塗りつぶしが獲得済み、縁取りだけの枠が未取得です。マスを押すと条件と根拠が開きます。</p><div class="progress" role="progressbar" aria-valuenow="${got}" aria-valuemin="0" aria-valuemax="${TOTAL}"><i style="width:${Math.round(got/TOTAL*100)}%"></i></div><div class="progress-note">${Math.round(got/TOTAL*100)}% 獲得。難易度の前提は14面×100BET、1ラウンド約${(60/(DIFF.roundsPerHour||23)).toFixed(1)}分です。</div>${recentHtml}</div><div class="sheet"><div class="mosaic" role="group" aria-label="330枠の獲得状況">${cells}</div><div class="sheet-foot"><div><span class="key"><span class="sw" style="background:var(--c-C)"></span>獲得済み</span><span class="key"><span class="sw hollow" style="box-shadow:inset 0 0 0 1.5px var(--c-C)"></span>未取得</span><span class="key">色は難易度（Fの青灰からSSの金へ）、緑は努力型</span></div><div>${dimmed ? (state.view === 'timeline' ? '濃い枠は自分で獲得済みにした称号' : '薄い枠は現在の絞り込みに含まれない称号') : '左上が1ページ目、右下が17ページ目'}</div></div></div></div><div class="hero-bars"><p class="bars-note">ランク別の獲得数。押すと一覧をそのランクだけに絞り込みます。</p>${rankProgress()}${tierProgress()}</div>`;
   hero.querySelectorAll('[data-slot]').forEach(b => b.addEventListener('click', () => openSlot(+b.dataset.slot)));
   hero.querySelectorAll('[data-rank]').forEach(b => b.addEventListener('click', () => { const r = b.dataset.rank; state.rank = (state.rank === r) ? 'all' : r; if (state.view === 'timeline') state.view = 'list'; if (state.view === 'tiered' && r !== 'tier') state.view = 'list'; if (state.view === 'ranking' && r === 'tier') state.view = 'tiered'; render(); scrollToToolbar() }));
@@ -145,7 +162,7 @@ function renderList(){
   if (state.allPages && !state.query && state.filter === 'all' && state.category === 'all' && state.sort === 'slot' && state.rank === 'all') {
     for (let p = 1; p <= 17; p++) out += `<h3 style="margin:22px 0 10px;font-size:15px;color:var(--muted)">${p}ページ目</h3><div class="card-grid">${DB.slots.filter(s => s.page === p).map(tile).join('')}</div>`;
   } else out += shown.length ? `<div class="card-grid">${shown.map(tile).join('')}</div>` : `<div class="empty">条件に一致する称号がありません。検索語や絞り込みを変えてください。</div>`;
-  out += `<p class="board-note">獲得済みの判定は${fmtDate(SNAPSHOT)}の画面画像が初期値です。各称号の詳細から「獲得済みにする」を押すと、その日の日付とともにこのブラウザに自動保存され、全体図・ランク別の数・タイムラインに反映されます。別の端末へ移すときは上部の「セーブデータ」から書き出してください。</p>`;
+  out += `<p class="board-note">獲得済みの判定は${SNAPSHOTS.length > 1 ? `${fmtDate(FIRST_SNAPSHOT)}と${fmtDate(SNAPSHOT)}` : fmtDate(SNAPSHOT)}の画面画像が初期値です。各称号の詳細から「獲得済みにする」を押すと、その日の日付とともにこのブラウザに自動保存され、全体図・ランク別の数・タイムラインに反映されます。別の端末へ移すときは上部の「セーブデータ」から書き出してください。</p>`;
   return out;
 }
 
@@ -178,18 +195,21 @@ function renderTiered(){
 
 /* ── タイムライン ── */
 function renderTimeline(){
-  const items = acquired().filter(x => inQuery(x.sh));
+  const snapAll = snapshotAdded(), all = acquired().concat(snapAll);
+  const items = all.filter(x => inQuery(x.sh));
   const got = DB.slots.filter(s => qcheck(s.slot)).length;
   const groups = new Map();
-  items.sort((a,b) => { const da = a.date || '9999', db2 = b.date || '9999'; return da < db2 ? 1 : da > db2 ? -1 : b.slot - a.slot });
+  items.sort((a,b) => { const da = a.date || '9999', db2 = b.date || '9999'; return da < db2 ? 1 : da > db2 ? -1 : (!!a.snap) - (!!b.snap) || b.slot - a.slot });
   items.forEach(x => { const k = x.date || ''; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(x) });
-  let out = sectionHeader('タイムライン', '自分で「獲得済みにする」を押した称号を、日付ごとに新しい順で並べます。日付は記録した日が入り、あとから直せます。', `<button class="btn ghost" id="openSave">セーブデータ</button>`);
-  out += `<div class="tl-summary"><div><b>${got}</b> / ${TOTAL} 獲得</div><div><b>${acquired().length}</b> 件を${fmtDate(SNAPSHOT, false)}以降に記録</div><div>残り <b>${TOTAL - got}</b></div>${progress.dirty ? `<div class="warn">書き出していない変更 ${progress.dirty} 件</div>` : ''}</div>`;
+  let out = sectionHeader('タイムライン', '自分で「獲得済みにする」を押した称号と、称号一覧の画面画像で新たに確認した称号を、日付ごとに新しい順で並べます。日付はあとから直せます。', `<button class="btn ghost" id="openSave">セーブデータ</button>`);
+  out += `<div class="tl-summary"><div><b>${got}</b> / ${TOTAL} 獲得</div><div><b>${all.length}</b> 件を${fmtDate(FIRST_SNAPSHOT, false)}以降に記録</div><div>残り <b>${TOTAL - got}</b></div>${progress.dirty ? `<div class="warn">書き出していない変更 ${progress.dirty} 件</div>` : ''}</div>`;
   if (!items.length) out += `<div class="empty">${state.query ? '検索に一致する記録がありません。' : 'まだ記録がありません。称号一覧で称号を開き「獲得済みにする」を押すと、その日の記録がここに並びます。'}</div>`;
   for (const [k, arr] of groups) {
-    out += `<section class="tl-day ${k ? '' : 'tl-undated'}"><h3>${k ? fmtDate(k) : '日付未設定'}<small>　${arr.length}件</small></h3>${k ? '' : '<p class="small-print">以前の形式から引き継いだ記録です。獲得した日が分かれば入力してください。</p>'}<ul>${arr.map(x => { const d = diff(x.sh.arcade_id); return `<li class="tl-item"><button class="tl-open" data-slot="${x.slot}">${rankBadge(d, 'sm')}<span><b>${H(titleOf(x.sh))}</b><span class="small-print">　No.${num(x.slot)}　${H(catOf(x.sh))}${d && d.r != null && !isTier(d) ? `　期待 ${fmtR(d.r)}R` : ''}</span></span></button><label class="tl-date">獲得日 <input type="date" value="${H(x.date || '')}" max="${today()}" data-date-slot="${x.slot}" aria-label="${H(titleOf(x.sh))}の獲得日"></label></li>` }).join('')}</ul></section>`;
+    const nSnap = arr.filter(x => x.snap).length, pv = k ? prevSnapshot(k) : null;
+    const note = !k ? '<p class="small-print">以前の形式から引き継いだ記録です。獲得した日が分かれば入力してください。</p>' : nSnap ? `<p class="small-print">${nSnap === arr.length ? 'この日' : `うち${nSnap}件はこの日`}の称号一覧の画面で新たに獲得済みを確認した称号です${pv ? `（${fmtDate(pv, false)}の画面では未取得）` : ''}。実際に獲得した日が分かれば日付欄で直せます。</p>` : '';
+    out += `<section class="tl-day ${k ? '' : 'tl-undated'} ${nSnap ? 'tl-snap' : ''}"><h3>${k ? fmtDate(k) : '日付未設定'}<small>　${arr.length}件</small></h3>${note}<ul>${arr.map(x => { const d = diff(x.sh.arcade_id); return `<li class="tl-item"><button class="tl-open" data-slot="${x.slot}">${rankBadge(d, 'sm')}<span><b>${H(titleOf(x.sh))}</b><span class="small-print">　No.${num(x.slot)}　${H(catOf(x.sh))}${d && d.r != null && !isTier(d) ? `　期待 ${fmtR(d.r)}R` : ''}</span></span></button><span class="tl-side">${x.snap ? '<span class="tl-kind">画面で確認</span>' : ''}<label class="tl-date">獲得日 <input type="date" value="${x.snap ? '' : H(x.date || '')}" placeholder="${x.snap ? H(x.date) : ''}" max="${x.snap ? H(x.date) : today()}" data-date-slot="${x.slot}" aria-label="${H(titleOf(x.sh))}の獲得日"></label></span></li>` }).join('')}</ul></section>`;
   }
-  out += `<section class="tl-day tl-base"><h3>${fmtDate(SNAPSHOT)}</h3><p>開始時点。画面画像で獲得済みを確認した ${BASE_GOT} 件（この日以前の獲得日は記録していません）。</p></section>`;
+  out += `<section class="tl-day tl-base"><h3>${fmtDate(FIRST_SNAPSHOT)}</h3><p>開始時点。画面画像で獲得済みを確認した ${BASE_GOT} 件（この日以前の獲得日は記録していません）。</p></section>`;
   return out;
 }
 
@@ -243,12 +263,13 @@ function checkSection(sh){
   let status;
   if (m && m.got) status = `<p>自分で獲得済みにした称号です。<label class="tl-date" style="margin-left:6px">獲得日 <input type="date" value="${H(m.date || '')}" max="${today()}" data-date-slot="${n}"></label>${m.date ? '' : '<span class="small-print">　日付が未設定です</span>'}</p>`;
   else if (m && !m.got) status = `<p>画面画像では獲得済みでしたが、自分で未取得に戻しています。</p>`;
-  else status = `<p class="small-print">${sh.obtained ? `${fmtDate(SNAPSHOT)}の画面画像で獲得済みを確認しています。` : '未取得です。獲得したら下のボタンで記録してください。今日の日付が入り、タイムラインに並びます。'}</p>`;
+  else if (sh.obtained) { const c = confirmedOf(sh), pv = prevSnapshot(c); status = `<p class="small-print">${fmtDate(c)}の画面画像で獲得済みを確認しています${pv ? `（${fmtDate(pv, false)}の画面では未取得でした）` : ''}。<label class="tl-date" style="margin-left:6px">獲得した日が分かれば <input type="date" value="" min="${H(pv || '')}" max="${H(c)}" data-date-slot="${n}"></label></p>` }
+  else status = `<p class="small-print">未取得です。獲得したら下のボタンで記録してください。今日の日付が入り、タイムラインに並びます。</p>`;
   return `<div class="detail"><h4>獲得の記録</h4>${status}<div class="actions"><button class="btn primary" data-mark="${n}">${g ? '未取得に戻す' : '獲得済みにする'}</button></div><p class="small-print" style="margin-top:8px">このブラウザに自動保存されます。別の端末で見るときは「セーブデータ」から書き出してください。</p></div>`;
 }
 function openSlot(n){
   const sh = bySlot.get(n); if (!sh) return; const a = arc(sh), d = diff(sh.arcade_id), g = qcheck(n), m = userMark(n);
-  const tags = [mark(g ? 'got' : 'not', g ? (m && m.got ? (m.date ? `${fmtDate(m.date, false)} 獲得` : '獲得済み（自分で記録）') : '獲得済み（画像で確認）') : '未取得'), mark('', catOf(sh))];
+  const tags = [mark(g ? 'got' : 'not', g ? (m && m.got ? (m.date ? `${fmtDate(m.date, false)} 獲得` : '獲得済み（自分で記録）') : `獲得済み（${fmtDate(confirmedOf(sh), false)}の画面で確認）`) : '未取得'), mark('', catOf(sh))];
   if (isPredicted(sh)) tags.push(mark('est', QUEST5.includes(sh.arcade_id) ? '名称はSPを除いた並び順から推定' : '名称は並び順から推定'));
   tags.push(rankBadge(d));
   let dd = modalHeader(titleOf(sh), `コナステ No.${num(n)}　${sh.page}ページ目 ${(sh.position-1)%4+1}列 ${Math.floor((sh.position-1)/4)+1}行`, tags);
@@ -319,7 +340,7 @@ window.addEventListener('storage', e => { if (e.key === PKEY) { progress = loadP
 function csvCell(s){ return '"' + String(s ?? '').replaceAll('"','""') + '"' }
 document.getElementById('exportBtn').addEventListener('click', () => {
   const rows = [['コナステ枠','ページ','称号名','名称の確定','画像で獲得済','自分用獲得チェック','獲得日','獲得条件','難易度','自動推定','手動補正','★','期待ラウンド数','目安時間(h)','信頼度','算出根拠','照合No'],
-    ...DB.slots.map(s => { const d = diff(s.arcade_id), m = userMark(s.slot); return [s.slot, s.page, titleOf(s), s.obtained ? '確定' : '推定', s.obtained ? 'YES' : 'NO', qcheck(s.slot) ? 'YES' : 'NO', m && m.got ? (m.date || '日付未設定') : (s.obtained && qcheck(s.slot) ? `${SNAPSHOT}以前（画像）` : ''), condOf(s), d?.rank || (isTier(d) ? 'T' + d.tier + '（努力型）' : ''), d?.auto || '', d?.manual ? 'YES' : '', d?.stars ? '★'.repeat(d.stars) : '', d && d.r != null ? (d.r >= 1e6 ? '事実上不可' : Math.round(d.r)) : '', d && d.h != null && d.r < 1e6 ? d.h : '', d?.conf || '', d?.basis || '', s.arcade_id || ''] })];
+    ...DB.slots.map(s => { const d = diff(s.arcade_id), m = userMark(s.slot); return [s.slot, s.page, titleOf(s), s.obtained ? '確定' : '推定', s.obtained ? 'YES' : 'NO', qcheck(s.slot) ? 'YES' : 'NO', m && m.got ? (m.date || '日付未設定') : (s.obtained && qcheck(s.slot) ? (prevSnapshot(confirmedOf(s)) ? `${prevSnapshot(confirmedOf(s))}〜${confirmedOf(s)}（画像）` : `${confirmedOf(s)}以前（画像）`) : ''), condOf(s), d?.rank || (isTier(d) ? 'T' + d.tier + '（努力型）' : ''), d?.auto || '', d?.manual ? 'YES' : '', d?.stars ? '★'.repeat(d.stars) : '', d && d.r != null ? (d.r >= 1e6 ? '事実上不可' : Math.round(d.r)) : '', d && d.h != null && d.r < 1e6 ? d.h : '', d?.conf || '', d?.basis || '', s.arcade_id || ''] })];
   download('﻿' + rows.map(r => r.map(csvCell).join(',')).join('\r\n'), 'animalotta_konaste_titles.csv', 'text/csv;charset=utf-8;');
 });
 render();

@@ -796,7 +796,7 @@
       "condition": "サンダースマッシュで累計10,000個破壊",
       "condition_status": "実機参考",
       "category": "累積達成",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 75,
       "sp_note": ""
     },
@@ -866,7 +866,7 @@
       "condition": "ビンゴガーデンで累計500ライン",
       "condition_status": "実機参考",
       "category": "累積達成",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 82,
       "sp_note": ""
     },
@@ -946,7 +946,7 @@
       "condition": "トゥインクルリンクで累計5,000LINK",
       "condition_status": "実機参考",
       "category": "累積達成",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 90,
       "sp_note": ""
     },
@@ -966,7 +966,7 @@
       "condition": "ビンゴショットで累計1,000ライン",
       "condition_status": "実機参考",
       "category": "累積達成",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 92,
       "sp_note": ""
     },
@@ -1006,7 +1006,7 @@
       "condition": "ビンゴガーデンで累計1,000ライン",
       "condition_status": "実機参考",
       "category": "累積達成",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 96,
       "sp_note": ""
     },
@@ -1106,7 +1106,7 @@
       "condition": "ビンゴショットで累計2,000ライン",
       "condition_status": "実機参考",
       "category": "累積達成",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 106,
       "sp_note": ""
     },
@@ -1146,7 +1146,7 @@
       "condition": "ビンゴガーデンで3ライン",
       "condition_status": "実機参考",
       "category": "特殊役・最高役",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 110,
       "sp_note": ""
     },
@@ -1156,7 +1156,7 @@
       "condition": "チェーンボンバーで10連鎖以上。後続数字は更新される",
       "condition_status": "実機参考",
       "category": "特殊役・最高役",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 111,
       "sp_note": ""
     },
@@ -1166,7 +1166,7 @@
       "condition": "チェーンボンバーで全消し",
       "condition_status": "実機参考",
       "category": "特殊役・最高役",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 112,
       "sp_note": ""
     },
@@ -1376,7 +1376,7 @@
       "condition": "サンダースマッシュで右側を全消し",
       "condition_status": "実機参考",
       "category": "特殊役・最高役",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 131,
       "sp_note": ""
     },
@@ -1516,7 +1516,7 @@
       "condition": "ビンゴショットで10ライン",
       "condition_status": "実機参考",
       "category": "特殊役・最高役",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 145,
       "sp_note": ""
     },
@@ -1676,7 +1676,7 @@
       "condition": "15種類のゲーム中、最高役を7種類獲得",
       "condition_status": "実機参考",
       "category": "アルティメット",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 161,
       "sp_note": ""
     },
@@ -1686,7 +1686,7 @@
       "condition": "15種類のゲーム中、最高役を8種類獲得",
       "condition_status": "実機参考",
       "category": "アルティメット",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 162,
       "sp_note": ""
     },
@@ -2236,7 +2236,7 @@
       "condition": "アニマツリー/ヘブンツリーの累計WIN 1,000,000枚以上",
       "condition_status": "実機参考",
       "category": "メダル・モード",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 216,
       "sp_note": ""
     },
@@ -2296,7 +2296,7 @@
       "condition": "サンダースマッシュ/サンダーブレイクの累計WIN 1,000,000枚以上",
       "condition_status": "実機参考",
       "category": "メダル・モード",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 222,
       "sp_note": ""
     },
@@ -2326,7 +2326,7 @@
       "condition": "ビンゴショットの累計WIN 1,000,000枚以上",
       "condition_status": "実機参考",
       "category": "メダル・モード",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 225,
       "sp_note": ""
     },
@@ -2446,7 +2446,7 @@
       "condition": "サンダースマッシュ/サンダーブレイクの累計WIN 2,000,000枚以上",
       "condition_status": "実機参考",
       "category": "メダル・モード",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 237,
       "sp_note": ""
     },
@@ -2476,7 +2476,7 @@
       "condition": "ビンゴショットの累計WIN 2,000,000枚以上",
       "condition_status": "実機参考",
       "category": "メダル・モード",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 240,
       "sp_note": ""
     },
@@ -2516,7 +2516,7 @@
       "condition": "リンゴ（ワンダーステップ）累計10,000個獲得",
       "condition_status": "実機参考",
       "category": "メダル・モード",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 244,
       "sp_note": ""
     },
@@ -4338,7 +4338,7 @@
       "condition": "称号の70％獲得",
       "condition_status": "実機参考",
       "category": "称号収集",
-      "availability": "未取得（枠推定）",
+      "availability": "獲得済み（画像確認）",
       "konaste_slot": 326,
       "sp_note": ""
     },
@@ -4392,7 +4392,8 @@
       "screen": "はじめまして",
       "arcade_id": 1,
       "predicted": "はじめまして",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 2,
@@ -4402,7 +4403,8 @@
       "screen": "よくばりアニマ",
       "arcade_id": 6,
       "predicted": "よくばりアニマ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 3,
@@ -4412,7 +4414,8 @@
       "screen": "ワンダーZERO",
       "arcade_id": 7,
       "predicted": "ワンダーZERO",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 4,
@@ -4422,7 +4425,8 @@
       "screen": "ビッグワンダー",
       "arcade_id": 8,
       "predicted": "ビッグワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 5,
@@ -4432,7 +4436,8 @@
       "screen": "スーパーワンダー",
       "arcade_id": 9,
       "predicted": "スーパーワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 6,
@@ -4442,7 +4447,8 @@
       "screen": "アルティメットワンダー",
       "arcade_id": 10,
       "predicted": "アルティメットワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 7,
@@ -4452,7 +4458,8 @@
       "screen": "ゴッドワンダー",
       "arcade_id": 11,
       "predicted": "ゴッドワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 8,
@@ -4462,7 +4469,8 @@
       "screen": "クリスタルワンダー",
       "arcade_id": 12,
       "predicted": "クリスタルワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 9,
@@ -4472,7 +4480,8 @@
       "screen": "ムーンライトワンダー",
       "arcade_id": 13,
       "predicted": "ムーンライトワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 10,
@@ -4482,7 +4491,8 @@
       "screen": "サンシャインワンダー",
       "arcade_id": 14,
       "predicted": "サンシャインワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 11,
@@ -4512,7 +4522,8 @@
       "screen": "ドリームワンダー",
       "arcade_id": 17,
       "predicted": "ドリームワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 14,
@@ -4522,7 +4533,8 @@
       "screen": "デイドリーマー",
       "arcade_id": 18,
       "predicted": "デイドリーマー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 15,
@@ -4532,7 +4544,8 @@
       "screen": "ファンタジーワンダー",
       "arcade_id": 19,
       "predicted": "ファンタジーワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 16,
@@ -4542,7 +4555,8 @@
       "screen": "クインタブルワンダー",
       "arcade_id": 20,
       "predicted": "クインタブルワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 17,
@@ -4552,17 +4566,19 @@
       "screen": "コンプリートワンダー",
       "arcade_id": 21,
       "predicted": "コンプリートワンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 18,
       "page": 1,
       "position": 18,
       "obtained": true,
-      "screen": "悲しきワンダー37",
+      "screen": "悲しきワンダー49",
       "arcade_id": 22,
       "predicted": "悲しきワンダー10",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 19,
@@ -4572,7 +4588,8 @@
       "screen": "チャンスゲッター",
       "arcade_id": 23,
       "predicted": "チャンスゲッター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 20,
@@ -4582,7 +4599,8 @@
       "screen": "ラッキーゲッター",
       "arcade_id": 24,
       "predicted": "ラッキーゲッター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 21,
@@ -4592,7 +4610,8 @@
       "screen": "ミラクルゲッター",
       "arcade_id": 25,
       "predicted": "ミラクルゲッター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 22,
@@ -4602,7 +4621,8 @@
       "screen": "ビッグちゃん",
       "arcade_id": 26,
       "predicted": "ビッグちゃん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 23,
@@ -4612,7 +4632,8 @@
       "screen": "スーパーちゃん",
       "arcade_id": 27,
       "predicted": "スーパーちゃん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 24,
@@ -4642,7 +4663,8 @@
       "screen": "クリスタルちゃん",
       "arcade_id": 30,
       "predicted": "クリスタルちゃん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 27,
@@ -4652,7 +4674,8 @@
       "screen": "ムーンライトちゃん",
       "arcade_id": 31,
       "predicted": "ムーンライトちゃん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 28,
@@ -4662,7 +4685,8 @@
       "screen": "サンシャインちゃん",
       "arcade_id": 32,
       "predicted": "サンシャインちゃん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 29,
@@ -4672,7 +4696,8 @@
       "screen": "ドリームちゃん",
       "arcade_id": 33,
       "predicted": "ドリームちゃん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 30,
@@ -4682,7 +4707,8 @@
       "screen": "ファンタジーちゃん",
       "arcade_id": 34,
       "predicted": "ファンタジーちゃん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 31,
@@ -4692,7 +4718,8 @@
       "screen": "コンプリートチャレンジャー",
       "arcade_id": 35,
       "predicted": "コンプリートチャレンジャー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 32,
@@ -4702,7 +4729,8 @@
       "screen": "天界の挑戦者",
       "arcade_id": 36,
       "predicted": "天界の挑戦者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 33,
@@ -4712,7 +4740,8 @@
       "screen": "イカロスの翼",
       "arcade_id": 37,
       "predicted": "イカロスの翼",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 34,
@@ -4722,7 +4751,8 @@
       "screen": "エンジェルウィング",
       "arcade_id": 38,
       "predicted": "エンジェルウィング",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 35,
@@ -4742,7 +4772,8 @@
       "screen": "ムーンライトハンター",
       "arcade_id": 40,
       "predicted": "ムーンライトハンター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 37,
@@ -4752,7 +4783,8 @@
       "screen": "サンシャインハンター",
       "arcade_id": 41,
       "predicted": "サンシャインハンター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 38,
@@ -4762,7 +4794,8 @@
       "screen": "ドリームハンター",
       "arcade_id": 42,
       "predicted": "ドリームハンター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 39,
@@ -4772,7 +4805,8 @@
       "screen": "ファンタジーハンター",
       "arcade_id": 43,
       "predicted": "ファンタジーハンター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 40,
@@ -4782,7 +4816,8 @@
       "screen": "天空の覇者",
       "arcade_id": 44,
       "predicted": "天空の覇者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 41,
@@ -4792,7 +4827,8 @@
       "screen": "アップルクラウド",
       "arcade_id": 45,
       "predicted": "アップルクラウド",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 42,
@@ -4802,7 +4838,8 @@
       "screen": "ジャックポッター",
       "arcade_id": 46,
       "predicted": "ジャックポッター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 43,
@@ -4812,7 +4849,8 @@
       "screen": "ジャックポッターD",
       "arcade_id": 47,
       "predicted": "ジャックポッターD",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 44,
@@ -4822,7 +4860,8 @@
       "screen": "ハイパージャック",
       "arcade_id": 48,
       "predicted": "ハイパージャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 45,
@@ -4832,7 +4871,8 @@
       "screen": "ビッグジャック",
       "arcade_id": 49,
       "predicted": "ビッグジャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 46,
@@ -4842,7 +4882,8 @@
       "screen": "スーパージャック",
       "arcade_id": 50,
       "predicted": "スーパージャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 47,
@@ -4872,7 +4913,8 @@
       "screen": "クリスタルジャック",
       "arcade_id": 53,
       "predicted": "クリスタルジャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 50,
@@ -4902,7 +4944,8 @@
       "screen": "ムーンライトジャック",
       "arcade_id": 56,
       "predicted": "ムーンライトジャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 53,
@@ -4912,7 +4955,8 @@
       "screen": "ムーンライトドリーム",
       "arcade_id": 57,
       "predicted": "ムーンライトドリーム",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 54,
@@ -4922,7 +4966,8 @@
       "screen": "ムーンライトミラクル",
       "arcade_id": 58,
       "predicted": "ムーンライトミラクル",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 55,
@@ -4932,7 +4977,8 @@
       "screen": "ムーンライトレジェンド",
       "arcade_id": 59,
       "predicted": "ムーンライトレジェンド",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 56,
@@ -4942,7 +4988,8 @@
       "screen": "サンシャインジャック",
       "arcade_id": 60,
       "predicted": "サンシャインジャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 57,
@@ -4972,7 +5019,8 @@
       "screen": "ドリームジャック",
       "arcade_id": 63,
       "predicted": "ドリームジャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 60,
@@ -4992,7 +5040,8 @@
       "screen": "ファンタジージャック",
       "arcade_id": 65,
       "predicted": "ファンタジージャック",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 62,
@@ -5002,7 +5051,8 @@
       "screen": "ハイパーファンタジア",
       "arcade_id": 66,
       "predicted": "ハイパーファンタジア",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 63,
@@ -5012,7 +5062,8 @@
       "screen": "レジェンド・コンプリート",
       "arcade_id": 67,
       "predicted": "レジェンド・コンプリート",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 64,
@@ -5022,7 +5073,8 @@
       "screen": "さんさん★ミラクル",
       "arcade_id": 68,
       "predicted": "さんさん★ミラクル",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 65,
@@ -5032,7 +5084,8 @@
       "screen": "ごーごー★ミラクル",
       "arcade_id": 69,
       "predicted": "ごーごー★ミラクル",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 66,
@@ -5042,7 +5095,8 @@
       "screen": "てんてん★ミラクル",
       "arcade_id": 70,
       "predicted": "てんてん★ミラクル",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 67,
@@ -5052,7 +5106,8 @@
       "screen": "穴掘り師",
       "arcade_id": 71,
       "predicted": "穴掘り師",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 68,
@@ -5062,7 +5117,8 @@
       "screen": "ラインマン",
       "arcade_id": 72,
       "predicted": "ラインマン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 69,
@@ -5082,7 +5138,8 @@
       "screen": "ハチ飼い",
       "arcade_id": 74,
       "predicted": "ハチ飼い",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 71,
@@ -5092,7 +5149,8 @@
       "screen": "園芸家",
       "arcade_id": 75,
       "predicted": "園芸家",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 72,
@@ -5102,7 +5160,8 @@
       "screen": "バルーンつかい",
       "arcade_id": 77,
       "predicted": "バルーンつかい",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 73,
@@ -5112,7 +5171,8 @@
       "screen": "お花屋さん",
       "arcade_id": 78,
       "predicted": "お花屋さん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 74,
@@ -5122,17 +5182,19 @@
       "screen": "おやつはドロップ",
       "arcade_id": 79,
       "predicted": "おやつはドロップ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 75,
       "page": 4,
       "position": 15,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "ビリビリきちゃう！",
       "arcade_id": 80,
       "predicted": "ビリビリきちゃう！",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 76,
@@ -5142,7 +5204,8 @@
       "screen": "星占い",
       "arcade_id": 81,
       "predicted": "星占い",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 77,
@@ -5152,7 +5215,8 @@
       "screen": "宇宙の掃除屋",
       "arcade_id": 82,
       "predicted": "宇宙の掃除屋",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 78,
@@ -5162,7 +5226,8 @@
       "screen": "射的屋さん",
       "arcade_id": 83,
       "predicted": "射的屋さん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 79,
@@ -5172,7 +5237,8 @@
       "screen": "炭鉱家",
       "arcade_id": 84,
       "predicted": "炭鉱家",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 80,
@@ -5182,7 +5248,8 @@
       "screen": "調合師",
       "arcade_id": 85,
       "predicted": "調合師",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 81,
@@ -5198,11 +5265,12 @@
       "slot": 82,
       "page": 5,
       "position": 2,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "ラインメイカー",
       "arcade_id": 87,
       "predicted": "ラインメーカー",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 83,
@@ -5222,7 +5290,8 @@
       "screen": "ハチミツ屋さん",
       "arcade_id": 89,
       "predicted": "ハチミツ屋さん",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 85,
@@ -5252,7 +5321,8 @@
       "screen": "はなさかアニマ",
       "arcade_id": 92,
       "predicted": "はなさかアニマ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 88,
@@ -5262,7 +5332,8 @@
       "screen": "主食はドロップ",
       "arcade_id": 93,
       "predicted": "主食はドロップ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 89,
@@ -5278,11 +5349,12 @@
       "slot": 90,
       "page": 5,
       "position": 10,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "星間夜行",
       "arcade_id": 95,
       "predicted": "星間夜行",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 91,
@@ -5292,17 +5364,19 @@
       "screen": "コメットハンター",
       "arcade_id": 96,
       "predicted": "コメットハンター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 92,
       "page": 5,
       "position": 12,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "ショット・ショット・ショット",
       "arcade_id": 97,
       "predicted": "ショット・ショット・ショット",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 93,
@@ -5322,7 +5396,8 @@
       "screen": "アルケミスト",
       "arcade_id": 99,
       "predicted": "アルケミスト",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 95,
@@ -5338,11 +5413,12 @@
       "slot": 96,
       "page": 5,
       "position": 16,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "サウザンド・ライン",
       "arcade_id": 101,
       "predicted": "サウザンド・ライン",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 97,
@@ -5392,7 +5468,8 @@
       "screen": "花鳥風月",
       "arcade_id": 106,
       "predicted": "花鳥風月",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 102,
@@ -5402,7 +5479,8 @@
       "screen": "アニマドロッパー",
       "arcade_id": 107,
       "predicted": "アニマドロッパー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 103,
@@ -5432,17 +5510,19 @@
       "screen": "メテオキング",
       "arcade_id": 110,
       "predicted": "メテオキング",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 106,
       "page": 6,
       "position": 6,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "ロビンフッド",
       "arcade_id": 111,
       "predicted": "ロビンフッド",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 107,
@@ -5462,7 +5542,8 @@
       "screen": "錬金術師",
       "arcade_id": 113,
       "predicted": "錬金術師",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 109,
@@ -5478,31 +5559,34 @@
       "slot": 110,
       "page": 6,
       "position": 10,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "ミラクル3",
       "arcade_id": 115,
       "predicted": "ミラクル3",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 111,
       "page": 6,
       "position": 11,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "11チェーン",
       "arcade_id": 116,
       "predicted": "10チェーン",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 112,
       "page": 6,
       "position": 12,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "オールイレイサー",
       "arcade_id": 117,
       "predicted": "オールイレイサー",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 113,
@@ -5552,7 +5636,8 @@
       "screen": "スーパーファーマー",
       "arcade_id": 122,
       "predicted": "スーパーファーマー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 118,
@@ -5562,7 +5647,8 @@
       "screen": "ハイパーファーマー",
       "arcade_id": 123,
       "predicted": "ハイパーファーマー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 119,
@@ -5572,7 +5658,8 @@
       "screen": "セブンバルーン",
       "arcade_id": 126,
       "predicted": "セブンバルーン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 120,
@@ -5592,7 +5679,8 @@
       "screen": "オールドロップ",
       "arcade_id": 128,
       "predicted": "オールドロップ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 122,
@@ -5602,7 +5690,8 @@
       "screen": "ツインドロップ",
       "arcade_id": 129,
       "predicted": "ツインドロップ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 123,
@@ -5612,7 +5701,8 @@
       "screen": "ドロップトリニティ",
       "arcade_id": 130,
       "predicted": "ドロップトリニティ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 124,
@@ -5632,7 +5722,8 @@
       "screen": "ハニーファイブ",
       "arcade_id": 132,
       "predicted": "ハニーファイブ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 126,
@@ -5652,7 +5743,8 @@
       "screen": "スウィートゲット",
       "arcade_id": 134,
       "predicted": "スウィートゲット",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 128,
@@ -5662,7 +5754,8 @@
       "screen": "スウィートアゲイン",
       "arcade_id": 135,
       "predicted": "スウィートアゲイン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 129,
@@ -5688,11 +5781,12 @@
       "slot": 131,
       "page": 7,
       "position": 11,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "右にでるものはいない！",
       "arcade_id": 138,
       "predicted": "右に出るものはいない",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 132,
@@ -5732,7 +5826,8 @@
       "screen": "15倍プッシュ",
       "arcade_id": 142,
       "predicted": "10倍プッシュ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 136,
@@ -5752,7 +5847,8 @@
       "screen": "Mr.LINK18",
       "arcade_id": 144,
       "predicted": "Mr.LINK18",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 138,
@@ -5772,7 +5868,8 @@
       "screen": "12連流星群",
       "arcade_id": 146,
       "predicted": "10連流星群",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 140,
@@ -5782,7 +5879,8 @@
       "screen": "メテオール",
       "arcade_id": 147,
       "predicted": "メテオール",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 141,
@@ -5802,7 +5900,8 @@
       "screen": "チケットコレクター9",
       "arcade_id": 149,
       "predicted": "チケットコレクター5",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 143,
@@ -5812,7 +5911,8 @@
       "screen": "レインボーチケット",
       "arcade_id": 150,
       "predicted": "レインボーチケット",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 144,
@@ -5828,11 +5928,12 @@
       "slot": 145,
       "page": 8,
       "position": 5,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "ラッキーショット",
       "arcade_id": 152,
       "predicted": "ラッキーショット",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 146,
@@ -5852,7 +5953,8 @@
       "screen": "魔法使い見習い",
       "arcade_id": 154,
       "predicted": "魔法使い見習い",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 148,
@@ -5872,7 +5974,8 @@
       "screen": "箱泥棒",
       "arcade_id": 156,
       "predicted": "箱泥棒",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 150,
@@ -5882,7 +5985,8 @@
       "screen": "マジカルクラッシャー",
       "arcade_id": 157,
       "predicted": "マジカルクラッシャー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 151,
@@ -5902,7 +6006,8 @@
       "screen": "エリクサー症候群",
       "arcade_id": 159,
       "predicted": "エリクサー症候群",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 153,
@@ -5912,7 +6017,8 @@
       "screen": "一直線",
       "arcade_id": 160,
       "predicted": "一直線",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 154,
@@ -5922,7 +6028,8 @@
       "screen": "奇跡の錬金術",
       "arcade_id": 161,
       "predicted": "奇跡の錬金術",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 155,
@@ -5932,7 +6039,8 @@
       "screen": "稀有な魔法使い",
       "arcade_id": 162,
       "predicted": "稀有な魔法使い",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 156,
@@ -5952,7 +6060,8 @@
       "screen": "アルティメットIII",
       "arcade_id": 164,
       "predicted": "アルティメットⅢ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 158,
@@ -5962,7 +6071,8 @@
       "screen": "アルティメットIV",
       "arcade_id": 165,
       "predicted": "アルティメットⅣ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 159,
@@ -5972,7 +6082,8 @@
       "screen": "アルティメットV",
       "arcade_id": 166,
       "predicted": "アルティメットⅤ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 160,
@@ -5982,27 +6093,30 @@
       "screen": "アルティメットVI",
       "arcade_id": 167,
       "predicted": "アルティメットⅥ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 161,
       "page": 9,
       "position": 1,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "アルティメットVII",
       "arcade_id": 168,
       "predicted": "アルティメットⅦ",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 162,
       "page": 9,
       "position": 2,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "アルティメットVIII",
       "arcade_id": 169,
       "predicted": "アルティメットⅧ",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 163,
@@ -6082,7 +6196,8 @@
       "screen": "裏アルティメットIII",
       "arcade_id": 177,
       "predicted": "裏アルティメットⅢ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 171,
@@ -6122,7 +6237,8 @@
       "screen": "クリスタルハンター",
       "arcade_id": 181,
       "predicted": "クリスタルハンター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 175,
@@ -6132,7 +6248,8 @@
       "screen": "リンゴオールスター",
       "arcade_id": 182,
       "predicted": "リンゴオールスター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 176,
@@ -6142,7 +6259,8 @@
       "screen": "大収穫8",
       "arcade_id": 183,
       "predicted": "大収穫3",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 177,
@@ -6162,7 +6280,8 @@
       "screen": "ビンゴビギナー",
       "arcade_id": 185,
       "predicted": "ビンゴビギナー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 179,
@@ -6172,7 +6291,8 @@
       "screen": "ボンバー体験",
       "arcade_id": 186,
       "predicted": "ボンバー体験",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 180,
@@ -6182,7 +6302,8 @@
       "screen": "木のぼり初心者",
       "arcade_id": 187,
       "predicted": "木のぼり初心者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 181,
@@ -6192,7 +6313,8 @@
       "screen": "初りんご",
       "arcade_id": 188,
       "predicted": "初りんご",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 182,
@@ -6202,7 +6324,8 @@
       "screen": "ボンバー大好き",
       "arcade_id": 189,
       "predicted": "ボンバー大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 183,
@@ -6212,7 +6335,8 @@
       "screen": "ビンゴ大好き",
       "arcade_id": 190,
       "predicted": "ビンゴ大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 184,
@@ -6222,7 +6346,8 @@
       "screen": "木登り大好き",
       "arcade_id": 191,
       "predicted": "木登り大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 185,
@@ -6232,7 +6357,8 @@
       "screen": "りんご大好き",
       "arcade_id": 192,
       "predicted": "りんご大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 186,
@@ -6242,7 +6368,8 @@
       "screen": "ハチミツ大好き",
       "arcade_id": 193,
       "predicted": "ハチミツ大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 187,
@@ -6252,7 +6379,8 @@
       "screen": "野菜大好き",
       "arcade_id": 194,
       "predicted": "野菜大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 188,
@@ -6262,7 +6390,8 @@
       "screen": "風船大好き",
       "arcade_id": 196,
       "predicted": "風船大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 189,
@@ -6272,7 +6401,8 @@
       "screen": "お花大好き",
       "arcade_id": 197,
       "predicted": "お花大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 190,
@@ -6282,7 +6412,8 @@
       "screen": "ドロップ落とし",
       "arcade_id": 198,
       "predicted": "ドロップ落とし",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 191,
@@ -6292,7 +6423,8 @@
       "screen": "雷鳴",
       "arcade_id": 199,
       "predicted": "雷鳴",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 192,
@@ -6302,7 +6434,8 @@
       "screen": "天体観測",
       "arcade_id": 200,
       "predicted": "天体観測",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 193,
@@ -6312,7 +6445,8 @@
       "screen": "スペースデブリ",
       "arcade_id": 201,
       "predicted": "スペースデブリ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 194,
@@ -6322,7 +6456,8 @@
       "screen": "的当て大好き",
       "arcade_id": 202,
       "predicted": "的当て大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 195,
@@ -6332,7 +6467,8 @@
       "screen": "魔法大好き",
       "arcade_id": 203,
       "predicted": "魔法大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 196,
@@ -6342,7 +6478,8 @@
       "screen": "エリクサー大好き",
       "arcade_id": 204,
       "predicted": "エリクサー大好き",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 197,
@@ -6352,7 +6489,8 @@
       "screen": "ナインビンゴマン",
       "arcade_id": 205,
       "predicted": "ナインビンゴマン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 198,
@@ -6362,7 +6500,8 @@
       "screen": "I LOVE ボンバー",
       "arcade_id": 206,
       "predicted": "I LOVE ボンバー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 199,
@@ -6372,7 +6511,8 @@
       "screen": "I LOVE ビンゴ",
       "arcade_id": 207,
       "predicted": "I LOVE ビンゴ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 200,
@@ -6382,7 +6522,8 @@
       "screen": "I LOVE ツリー",
       "arcade_id": 208,
       "predicted": "I LOVE ツリー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 201,
@@ -6392,7 +6533,8 @@
       "screen": "I LOVE アップル",
       "arcade_id": 209,
       "predicted": "I LOVE アップル",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 202,
@@ -6402,7 +6544,8 @@
       "screen": "I LOVE ハニー",
       "arcade_id": 210,
       "predicted": "I LOVE ハニー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 203,
@@ -6412,7 +6555,8 @@
       "screen": "I LOVE ファーム",
       "arcade_id": 211,
       "predicted": "I LOVE ファーム",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 204,
@@ -6422,7 +6566,8 @@
       "screen": "I LOVE バルーン",
       "arcade_id": 212,
       "predicted": "I LOVE バルーン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 205,
@@ -6432,7 +6577,8 @@
       "screen": "I LOVE フラワー",
       "arcade_id": 213,
       "predicted": "I LOVE フラワー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 206,
@@ -6442,7 +6588,8 @@
       "screen": "I LOVE ドロップ",
       "arcade_id": 214,
       "predicted": "I LOVE ドロップ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 207,
@@ -6452,7 +6599,8 @@
       "screen": "I LOVE サンダー",
       "arcade_id": 215,
       "predicted": "I LOVE サンダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 208,
@@ -6462,7 +6610,8 @@
       "screen": "I LOVE リンク",
       "arcade_id": 216,
       "predicted": "I LOVE リンク",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 209,
@@ -6472,7 +6621,8 @@
       "screen": "I LOVE メテオ",
       "arcade_id": 217,
       "predicted": "I LOVE メテオ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 210,
@@ -6482,7 +6632,8 @@
       "screen": "I LOVE ショット",
       "arcade_id": 218,
       "predicted": "I LOVE ショット",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 211,
@@ -6492,7 +6643,8 @@
       "screen": "I LOVE マイン",
       "arcade_id": 219,
       "predicted": "I LOVE マイン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 212,
@@ -6502,7 +6654,8 @@
       "screen": "I LOVE エリクサー",
       "arcade_id": 220,
       "predicted": "I LOVE エリクサー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 213,
@@ -6512,7 +6665,8 @@
       "screen": "ナインビンゴマスター",
       "arcade_id": 221,
       "predicted": "ナインビンゴマスター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 214,
@@ -6538,11 +6692,12 @@
       "slot": 216,
       "page": 11,
       "position": 16,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "宇宙に届きしもの",
       "arcade_id": 224,
       "predicted": "宇宙に届きしもの",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 217,
@@ -6552,7 +6707,8 @@
       "screen": "スイートハニー",
       "arcade_id": 225,
       "predicted": "スイートハニー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 218,
@@ -6562,7 +6718,8 @@
       "screen": "ドリームファーマー",
       "arcade_id": 226,
       "predicted": "ドリームファーマー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 219,
@@ -6582,7 +6739,8 @@
       "screen": "お花畑の住人",
       "arcade_id": 228,
       "predicted": "お花畑の住人",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 221,
@@ -6592,17 +6750,19 @@
       "screen": "一人じゃ食べきれない",
       "arcade_id": 229,
       "predicted": "一人じゃ食べきれない",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 222,
       "page": 12,
       "position": 2,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "雷王",
       "arcade_id": 230,
       "predicted": "雷王",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 223,
@@ -6612,7 +6772,8 @@
       "screen": "アマチュア天文家",
       "arcade_id": 231,
       "predicted": "アマチュア天文家",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 224,
@@ -6622,17 +6783,19 @@
       "screen": "シューティングスター",
       "arcade_id": 232,
       "predicted": "シューティングスター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 225,
       "page": 12,
       "position": 5,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "百万発百万中",
       "arcade_id": 233,
       "predicted": "百万発百万中",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 226,
@@ -6642,7 +6805,8 @@
       "screen": "無限詠唱",
       "arcade_id": 234,
       "predicted": "無限詠唱",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 227,
@@ -6652,7 +6816,8 @@
       "screen": "ミキサー",
       "arcade_id": 235,
       "predicted": "ミキサー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 228,
@@ -6702,7 +6867,8 @@
       "screen": "BeeBeeKING",
       "arcade_id": 240,
       "predicted": "BeeBeeKING",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 233,
@@ -6742,17 +6908,19 @@
       "screen": "ドルチェクイーン",
       "arcade_id": 244,
       "predicted": "ドルチェクイーン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 237,
       "page": 12,
       "position": 17,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "雷神",
       "arcade_id": 245,
       "predicted": "雷神",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 238,
@@ -6772,17 +6940,19 @@
       "screen": "メテ王",
       "arcade_id": 247,
       "predicted": "メテ王",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 240,
       "page": 12,
       "position": 20,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "ショットコーラー",
       "arcade_id": 248,
       "predicted": "ショットコーラー",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 241,
@@ -6792,7 +6962,8 @@
       "screen": "Wonders Wand",
       "arcade_id": 249,
       "predicted": "Wonder's Wand",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 242,
@@ -6802,7 +6973,8 @@
       "screen": "ポーションコレクター",
       "arcade_id": 250,
       "predicted": "ポーションコレクター",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 243,
@@ -6818,11 +6990,12 @@
       "slot": 244,
       "page": 13,
       "position": 4,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "アップルドリーム",
       "arcade_id": 252,
       "predicted": "アップルドリーム",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 245,
@@ -6862,7 +7035,8 @@
       "screen": "シックスWIN",
       "arcade_id": 256,
       "predicted": "シックスWIN",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 249,
@@ -6892,7 +7066,8 @@
       "screen": "ハイパーマルチWIN",
       "arcade_id": 259,
       "predicted": "ハイパーマルチWIN",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 252,
@@ -6912,7 +7087,8 @@
       "screen": "SPアルティメットマルチWIN",
       "arcade_id": 261,
       "predicted": "SPアルティメットマルチWIN",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 254,
@@ -6942,7 +7118,8 @@
       "screen": "エクセレントチョイス",
       "arcade_id": 264,
       "predicted": "エクセレントチョイス",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 257,
@@ -6952,7 +7129,8 @@
       "screen": "かんたんオール",
       "arcade_id": 265,
       "predicted": "かんたんオール",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 258,
@@ -6982,7 +7160,8 @@
       "screen": "濡れ手にアワー7",
       "arcade_id": 268,
       "predicted": "濡れ手にアワー5",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 261,
@@ -6992,7 +7171,8 @@
       "screen": "ミリオネアー",
       "arcade_id": 269,
       "predicted": "ミリオネアー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 262,
@@ -7002,7 +7182,8 @@
       "screen": "富豪",
       "arcade_id": 270,
       "predicted": "富豪",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 263,
@@ -7012,7 +7193,8 @@
       "screen": "大富豪",
       "arcade_id": 271,
       "predicted": "大富豪",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 264,
@@ -7022,7 +7204,8 @@
       "screen": "億万長者",
       "arcade_id": 272,
       "predicted": "億万長者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 265,
@@ -7032,7 +7215,8 @@
       "screen": "☆使い",
       "arcade_id": 273,
       "predicted": "☆使い",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 266,
@@ -7042,7 +7226,8 @@
       "screen": "☆に愛されしもの",
       "arcade_id": 274,
       "predicted": "☆に愛されしもの",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 267,
@@ -7052,7 +7237,8 @@
       "screen": "スターダスト",
       "arcade_id": 275,
       "predicted": "スターダスト",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 268,
@@ -7062,7 +7248,8 @@
       "screen": "ミルキーウェイ",
       "arcade_id": 276,
       "predicted": "ミルキーウェイ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 269,
@@ -7072,7 +7259,8 @@
       "screen": "探検家",
       "arcade_id": 277,
       "predicted": "探検家",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 270,
@@ -7082,7 +7270,8 @@
       "screen": "天界の訪問者",
       "arcade_id": 279,
       "predicted": "天界の訪問者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 271,
@@ -7092,7 +7281,8 @@
       "screen": "星を詠む者",
       "arcade_id": 281,
       "predicted": "星を詠む者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 272,
@@ -7102,7 +7292,8 @@
       "screen": "アニマランドの来場者",
       "arcade_id": 283,
       "predicted": "アニマランドの来場者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 273,
@@ -7112,7 +7303,8 @@
       "screen": "はじまりの大地",
       "arcade_id": 285,
       "predicted": "はじまりの大地",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 274,
@@ -7122,7 +7314,8 @@
       "screen": "どうしてもこれが取れなくて",
       "arcade_id": 297,
       "predicted": "どうしてもこれが取れなくて",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 275,
@@ -7132,7 +7325,8 @@
       "screen": "あれ、取れちゃった",
       "arcade_id": 298,
       "predicted": "あれ、取れちゃった",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 276,
@@ -7142,7 +7336,8 @@
       "screen": "スタンプ愛好家",
       "arcade_id": 336,
       "predicted": "スタンプ愛好家",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 277,
@@ -7152,7 +7347,8 @@
       "screen": "アニマコレクション",
       "arcade_id": 337,
       "predicted": "アニマコレクション",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 278,
@@ -7162,7 +7358,8 @@
       "screen": "HOP STAMP JUMP",
       "arcade_id": 338,
       "predicted": "HOP STAMP JUMP",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 279,
@@ -7172,7 +7369,8 @@
       "screen": "踊り子",
       "arcade_id": 341,
       "predicted": "踊り子",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 280,
@@ -7182,7 +7380,8 @@
       "screen": "ダンサー",
       "arcade_id": 342,
       "predicted": "ダンサー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 281,
@@ -7192,7 +7391,8 @@
       "screen": "シャルウィダンス",
       "arcade_id": 343,
       "predicted": "シャルウィダンス",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 282,
@@ -7222,7 +7422,8 @@
       "screen": "ブリーダー",
       "arcade_id": 346,
       "predicted": "ブリーダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 285,
@@ -7232,7 +7433,8 @@
       "screen": "トップブリーダー",
       "arcade_id": 347,
       "predicted": "トップブリーダー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 286,
@@ -7242,7 +7444,8 @@
       "screen": "アニマタッチ",
       "arcade_id": 348,
       "predicted": "アニマタッチ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 287,
@@ -7252,7 +7455,8 @@
       "screen": "アニマイヂリ",
       "arcade_id": 349,
       "predicted": "アニマイヂリ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 288,
@@ -7272,7 +7476,8 @@
       "screen": "新たな勇者の誕生",
       "arcade_id": 387,
       "predicted": "新たな勇者の誕生",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 290,
@@ -7282,7 +7487,8 @@
       "screen": "初報酬",
       "arcade_id": 388,
       "predicted": "初報酬",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 291,
@@ -7292,7 +7498,8 @@
       "screen": "敗北者",
       "arcade_id": 389,
       "predicted": "敗北者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 292,
@@ -7302,7 +7509,8 @@
       "screen": "駆け出しの冒険者",
       "arcade_id": 390,
       "predicted": "駆け出しの冒険者",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 293,
@@ -7342,7 +7550,8 @@
       "screen": "クエスト見習い",
       "arcade_id": 394,
       "predicted": "クエスト見習い",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 297,
@@ -7402,7 +7611,8 @@
       "screen": "スウィートスプリング",
       "arcade_id": 406,
       "predicted": "スウィートスプリング",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 303,
@@ -7412,7 +7622,8 @@
       "screen": "ホットサマー",
       "arcade_id": 407,
       "predicted": "ホットサマー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 304,
@@ -7422,7 +7633,8 @@
       "screen": "ラッキーオータム",
       "arcade_id": 408,
       "predicted": "ラッキーオータム",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 305,
@@ -7462,7 +7674,8 @@
       "screen": "ワンデーアニマ",
       "arcade_id": 412,
       "predicted": "ワンデーアニマ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 309,
@@ -7472,7 +7685,8 @@
       "screen": "ウィークリーアニマ",
       "arcade_id": 413,
       "predicted": "ウィークリーアニマ",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 310,
@@ -7502,7 +7716,8 @@
       "screen": "オールウィーク",
       "arcade_id": 416,
       "predicted": "オールウィーク",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 313,
@@ -7512,7 +7727,8 @@
       "screen": "ビューティフルサンデー",
       "arcade_id": 417,
       "predicted": "ビューティフルサンデー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 314,
@@ -7522,7 +7738,8 @@
       "screen": "おかえりなさい",
       "arcade_id": 418,
       "predicted": "おかえりなさい",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 315,
@@ -7532,7 +7749,8 @@
       "screen": "アニマに夢中",
       "arcade_id": 419,
       "predicted": "アニマに夢中",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 316,
@@ -7542,7 +7760,8 @@
       "screen": "アニマニア",
       "arcade_id": 420,
       "predicted": "アニマニア",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 317,
@@ -7552,7 +7771,8 @@
       "screen": "アニマっしぐら",
       "arcade_id": 421,
       "predicted": "アニマっしぐら",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 318,
@@ -7562,7 +7782,8 @@
       "screen": "アニマ中毒",
       "arcade_id": 422,
       "predicted": "アニマ中毒",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 319,
@@ -7572,7 +7793,8 @@
       "screen": "もうアニマしか見えない",
       "arcade_id": 423,
       "predicted": "もうアニマしか見えない",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 320,
@@ -7582,7 +7804,8 @@
       "screen": "もうアニマしか見えない11",
       "arcade_id": 424,
       "predicted": "もうアニマしか見えない8",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 321,
@@ -7592,7 +7815,8 @@
       "screen": "アニマde仕事",
       "arcade_id": 425,
       "predicted": "アニマde仕事",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 322,
@@ -7638,11 +7862,12 @@
       "slot": 326,
       "page": 17,
       "position": 6,
-      "obtained": false,
-      "screen": null,
+      "obtained": true,
+      "screen": "アニマロッター",
       "arcade_id": 434,
       "predicted": "アニマロッター",
-      "proof": "実機一覧の順番から推定"
+      "proof": "2026-11-10の画面で確認（2026-11-08の画面では未取得の「？」）",
+      "confirmed": "2026-11-10"
     },
     {
       "slot": 327,
@@ -7652,7 +7877,8 @@
       "screen": "アニマーク",
       "arcade_id": 435,
       "predicted": "アニマーク",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 328,
@@ -7662,7 +7888,8 @@
       "screen": "アニマン",
       "arcade_id": 436,
       "predicted": "アニマン",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 329,
@@ -7672,7 +7899,8 @@
       "screen": "アニュマー",
       "arcade_id": 437,
       "predicted": "アニュマー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     },
     {
       "slot": 330,
@@ -7682,7 +7910,8 @@
       "screen": "ビギニャー",
       "arcade_id": 438,
       "predicted": "ビギニャー",
-      "proof": "画像で確認"
+      "proof": "画像で確認",
+      "confirmed": "2026-11-08"
     }
   ],
   "excluded": [
@@ -7809,12 +8038,12 @@
     405
   ],
   "meta": {
-    "snapshot": "2026-11-08",
+    "snapshot": "2026-11-10",
     "arcadeTotal": 438,
     "konasteSlots": 330,
-    "obtainedFromImage": 209,
-    "unrevealedFromImage": 121,
-    "identifiedViaOrder": 121,
+    "obtainedFromImage": 229,
+    "unrevealedFromImage": 101,
+    "identifiedViaOrder": 101,
     "questUnknownSlots": 0,
     "provenExcluded": 108,
     "questUnresolvedExcluded": 0,
@@ -7839,6 +8068,21 @@
       405
     ],
     "questMappingConclusion": "実機No.395〜405の11件からSP限定の6件（397〜402）を除くと5件が残り、コナステの未取得5枠（No.297〜301）に掲載順で対応する。エンドコンテンツと伝説の勇者はSP部分を除いた条件（全128種の受注／クリア）に読み替え。獲得時の画面で名称の確認が必要。",
-    "questMappingDate": "2026-11-09"
+    "questMappingDate": "2026-11-09",
+    "firstSnapshot": "2026-11-08",
+    "snapshots": [
+      {
+        "date": "2026-11-08",
+        "added": 209,
+        "obtained": 209,
+        "note": "初回。画面17枚から330枠を整理（獲得209）"
+      },
+      {
+        "date": "2026-11-10",
+        "added": 20,
+        "obtained": 229,
+        "note": "画面17枚（獲得称号数 229個の表示）。前回から+20"
+      }
+    ]
   }
 }

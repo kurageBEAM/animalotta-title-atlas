@@ -20,6 +20,16 @@ python tools/build_difficulty.py
 python tools/assemble_ui.py
 ```
 
+   獲得状況を新しい画面画像で更新する場合は、先に `tools/snapshots.json` へ日付と新たに名前の出た枠（枠番号: 表示名）を追記し、次を実行してから上の2つを実行します。
+
+```bash
+python tools/apply_snapshot.py
+```
+
+```bash
+python tools/export_assumptions.py
+```
+
 2. 変更をコミットしてプッシュします。
 
 ```bash
